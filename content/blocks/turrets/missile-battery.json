@@ -29,7 +29,7 @@
     "copper": {
       "instantDisappear": true,
       "shootEffect": "shootBig",
-      "smokeEffect": "shootSmokeMissile",
+      "smokeEffect": "shootSmokeTitan",
       "damage": 0,
       "spawnUnit": "me-tiny-missile"
     }
