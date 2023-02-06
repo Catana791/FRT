@@ -18,8 +18,8 @@
       0, 8, 0,
       22, 11, -10,
       30, 16, -10,
-      -22, 11, -10,
-      -30, 16, -10
+      -22, 11, 10,
+      -30, 16, 10
     ],
     "shotDelay": 12
   }
@@ -60,7 +60,7 @@
         "moveX": -22,
         "suffix": "-drone-3",
         "under": true,
-        "moveRot": -10
+        "moveRot": 10
       },
       {
         "type": "RegionPart",
@@ -69,7 +69,7 @@
         "moveX": -30,
         "suffix": "-drone-4",
         "under": true,
-        "moveRot": -10
+        "moveRot": 10
       }
     ]
   }
