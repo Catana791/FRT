@@ -45,6 +45,22 @@
         "moveX": 30,
         "suffix": "-drone-2",
         "under": true
+      },
+      {
+        "type": "RegionPart",
+        "progress": "warmup",
+        "moveY": 11,
+        "moveX": -22,
+        "suffix": "-drone-3",
+        "under": true
+      },
+      {
+        "type": "RegionPart",
+        "progress": "warmup",
+        "moveY": 16,
+        "moveX": -30,
+        "suffix": "-drone-4",
+        "under": true
       }
     ]
   }
