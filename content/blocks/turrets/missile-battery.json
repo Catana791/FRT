@@ -35,7 +35,6 @@
         "progress": "warmup",
         "moveY": 11,
         "moveX": 22,
-        "mirror": true,
         "suffix": "-drone-1",
         "under": true
       },
@@ -44,7 +43,6 @@
         "progress": "warmup",
         "moveY": 16,
         "moveX": 30,
-        "mirror": true,
         "suffix": "-drone-2",
         "under": true
       }
