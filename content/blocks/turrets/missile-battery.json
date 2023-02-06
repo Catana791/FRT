@@ -16,10 +16,10 @@
     "shots": 5,
     "barrels": [
       0, 8, 0,
-      22, 11, 0,
-      30, 16, 0,
-      -22, 11, 0,
-      -30, 16, 0
+      22, 11, -10,
+      30, 16, -10,
+      -22, 11, -10,
+      -30, 16, -10
     ],
     "shotDelay": 12
   }
@@ -41,7 +41,8 @@
         "moveY": 11,
         "moveX": 22,
         "suffix": "-drone-1",
-        "under": true
+        "under": true,
+        "moveRot": -10
       },
       {
         "type": "RegionPart",
@@ -49,7 +50,8 @@
         "moveY": 16,
         "moveX": 30,
         "suffix": "-drone-2",
-        "under": true
+        "under": true,
+        "moveRot": -10
       },
       {
         "type": "RegionPart",
@@ -57,7 +59,8 @@
         "moveY": 11,
         "moveX": -22,
         "suffix": "-drone-3",
-        "under": true
+        "under": true,
+        "moveRot": -10
       },
       {
         "type": "RegionPart",
@@ -65,7 +68,8 @@
         "moveY": 16,
         "moveX": -30,
         "suffix": "-drone-4",
-        "under": true
+        "under": true,
+        "moveRot": -10
       }
     ]
   }
