@@ -12,11 +12,15 @@
   "scaledHealth": 110,
   "shootSound": "missileLaunch",
   "shoot": {
-    "type": "ShootAlternate",
-    "shots": 5,
-    "barrels": 5,
-    "spread": 5,
-    "shotDelay": 20
+    "type": "ShootBarrel",
+    "barrels": [
+      {0, 8, 0},
+      {22, 11, 0},
+      {30, 16, 0},
+      {11, -22, 0},
+      {16, -30, 0}
+    ],
+    "shotDelay": 12
   }
   "ammoTypes": {
     "copper": {
