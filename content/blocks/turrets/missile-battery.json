@@ -17,10 +17,10 @@
     "shots": 5,
     "barrels": [
       0, 8, 0,
-      15, 0, 20,
-      25, 7, 20,
-      -15, 0, -20,
-      -25, 7, -20
+      20, 0, 20,
+      30, 7, 20,
+      -20, 0, -20,
+      -30, 7, -20
     ],
     "shotDelay": 12
   }
@@ -40,7 +40,7 @@
         "type": "RegionPart",
         "progress": "warmup",
         "moveY": 0,
-        "moveX": 15,
+        "moveX": 20,
         "suffix": "-drone-1",
         "under": true,
         "moveRot": 20
@@ -49,7 +49,7 @@
         "type": "RegionPart",
         "progress": "warmup",
         "moveY": 7,
-        "moveX": 25,
+        "moveX": 30,
         "suffix": "-drone-2",
         "under": true,
         "moveRot": 20
@@ -58,7 +58,7 @@
         "type": "RegionPart",
         "progress": "warmup",
         "moveY": 0,
-        "moveX": -15,
+        "moveX": -20,
         "suffix": "-drone-3",
         "under": true,
         "moveRot": -20
@@ -67,7 +67,7 @@
         "type": "RegionPart",
         "progress": "warmup",
         "moveY": 7,
-        "moveX": -25,
+        "moveX": -30,
         "suffix": "-drone-4",
         "under": true,
         "moveRot": -20
