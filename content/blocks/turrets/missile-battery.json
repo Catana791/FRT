@@ -9,6 +9,7 @@
   "research": "duo",
   "reload": 660,
   "size": 3,
+  "range": 304,
   "scaledHealth": 110,
   "shootSound": "missileLaunch",
   "shoot": {
@@ -16,10 +17,10 @@
     "shots": 5,
     "barrels": [
       0, 8, 0,
-      22, 11, 0,
-      30, 16, 0,
-      -22, 11, 0,
-      -30, 16, 0
+      22, 11, -10,
+      30, 16, -10,
+      -22, 11, 10,
+      -30, 16, 10
     ],
     "shotDelay": 12
   }
@@ -38,34 +39,38 @@
       {
         "type": "RegionPart",
         "progress": "warmup",
-        "moveY": 11,
-        "moveX": 22,
+        "moveY": 5,
+        "moveX": 18,
         "suffix": "-drone-1",
-        "under": true
+        "under": true,
+        "moveRot": -10
       },
       {
         "type": "RegionPart",
         "progress": "warmup",
-        "moveY": 16,
-        "moveX": 30,
+        "moveY": 7,
+        "moveX": 26,
         "suffix": "-drone-2",
-        "under": true
+        "under": true,
+        "moveRot": -10
       },
       {
         "type": "RegionPart",
         "progress": "warmup",
-        "moveY": 11,
-        "moveX": -22,
+        "moveY": 5,
+        "moveX": -18,
         "suffix": "-drone-3",
-        "under": true
+        "under": true,
+        "moveRot": 10
       },
       {
         "type": "RegionPart",
         "progress": "warmup",
-        "moveY": 16,
-        "moveX": -30,
+        "moveY": 7,
+        "moveX": -26,
         "suffix": "-drone-4",
-        "under": true
+        "under": true,
+        "moveRot": 10
       }
     ]
   }
