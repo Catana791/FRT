@@ -15,7 +15,7 @@
   "chargeSound": "lasercharge2",
   "shoot": {
     "type": "ShootBarrel",
-    "shots": 5,
+    "shots": 15,
     "barrels": [
       0, 8, 0,
       20, 0, 20,
@@ -23,7 +23,7 @@
       -20, 0, -20,
       -30, 7, -25
     ],
-    "shotDelay": 12,
+    "shotDelay": 6,
     "firstShotDelay": 90
   }
   "ammoTypes": {
