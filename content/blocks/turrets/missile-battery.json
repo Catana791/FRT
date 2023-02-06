@@ -7,7 +7,7 @@
   "category": "turret",
   "requirements": [],
   "research": "duo",
-  "reload": 660,
+  "reload": 570,
   "size": 3,
   "range": 304,
   "scaledHealth": 110,
@@ -22,7 +22,8 @@
       -20, 0, -20,
       -30, 7, -20
     ],
-    "shotDelay": 12
+    "shotDelay": 18,
+    "firstShotDelay": 90
   }
   "ammoTypes": {
     "copper": {
