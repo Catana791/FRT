@@ -22,14 +22,14 @@
       -20, 0, -20,
       -30, 7, -20
     ],
-    "shotDelay": 18,
+    "shotDelay": 12,
     "firstShotDelay": 90
   }
   "ammoTypes": {
     "copper": {
       "instantDisappear": true,
       "shootEffect": "shootBig",
-      "smokeEffect": "shootSmokeTitan",
+      "smokeEffect": "shootSmokeMissile",
       "damage": 0,
       "spawnUnit": "me-tiny-missile"
     }
