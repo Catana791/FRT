@@ -13,6 +13,7 @@
   "shootSound": "missileLaunch",
   "shoot": {
     "type": "ShootBarrel",
+    "shots": 5,
     "barrels": [
       0, 8, 0,
       22, 11, 0,
