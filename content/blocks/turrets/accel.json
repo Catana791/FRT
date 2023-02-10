@@ -39,7 +39,8 @@
       "trailChance": -1,
       "despawnSound": "zap",
       "hitEffect": {
-        "type": "MultiEffect";
+        "type": "MultiEffect",
+        "followParent": true,
         "effects": [
           {
             "type": "WaveEffect",
