@@ -53,7 +53,8 @@
             "sizeTo": 2,
             "colorFrom": "f3e979",
             "colorTo": "ffffff",
-            "lifetime": 180
+            "lifetime": 30,
+            "lighOpacity": 0
           },
           {
             "type": "ParticleEffect",
@@ -65,7 +66,8 @@
             "sizeTo": 2,
             "colorFrom": "ffffff",
             "colorTo": "f3e979",
-            "lifetime": 180
+            "lifetime": 30,
+            "lightOpacity": 0
           }
         ]
       }
