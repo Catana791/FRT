@@ -8,9 +8,58 @@
   "category": "turret",
   "requirements": [],
   "ammoTypes": {
-    "copper": {
-      "speed": 1,
-      "damage": 20
+    "surge-alloy": {
+      "type": "MissileBulletType",
+      "shrinkX": -4,
+      "spin": 2,
+      "height": 28,
+      "width": 16,
+      "status": "shocked",
+      "speed": 2,
+      "lifetime": 360,
+      "optimalLifeFract": 360,
+      "pierce": true,
+      "damage": 2000,
+      "frontColor": "ffffff",
+      "backColor": "f3e979",
+      "homingPower": 0,
+      "homingRange": 0,
+      "splashDamage": 400,
+      "splashDamageRadius": 40,
+      "shootEffect": "shootBig2",
+      "hitSound": "zap",
+      "status": "shocked",
+      "lightColor": "f3e979",
+      "trailColor": "f3e979",
+      "backColor": "f3e979",
+      "lightRadius": 40,
+      "lightOpacity": 0.7,
+      "trailWidth": 4,
+      "trailLength": 45,
+      "trailChance": -1,
+      "despawnSound": "zap",
+      "hitEffect": {
+        "type": "MultiEffect";
+        "effects": [
+          {
+            "type": "WaveEffect",
+            "colorFrom": "f3e979",
+            "colorTo": "ffffff",
+            "sizeFrom": 2,
+            "sizeTo": 60
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 22,
+            "length": 60,
+            "baseLength": 50,
+            "interp": "pow2Out",
+            "sizeInterp": "pow2Out",
+            "sizeFrom": 12,
+            "sizeTo": 2
+          }
+        ]
+      }
     }
   },
   "drawer": {
