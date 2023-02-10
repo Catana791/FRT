@@ -3,6 +3,7 @@
   "name": "Accel",
   "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
   "size": 4,
+  "reload": 240,
   "scaledHealth": 140,
   "category": "turret",
   "requirements": [],
