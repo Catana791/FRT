@@ -26,15 +26,25 @@
         "moveRot": -7
       },
       {
-        "type": "Regionpart",
+        "type": "RegionPart",
         "suffix": "-back",
         "heatProgress": "warmup",
+        "progress": "warmup",
         "mirror": true,
         "moveX": 2.66667,
         "moveY": -0.5,
         "moveRot": -40,
         "under": true,
-        "heatcolor": "ff6214"
+        "heatcolor": "ff6214",
+        "moves": [
+          {
+            "type": "PartMove",
+            "progress": "warmup",
+            "moveX": 0,
+            "moveY": -2,
+            "moveRot": 3
+          }
+        ]
       }
     ]
   }
