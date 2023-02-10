@@ -40,7 +40,35 @@
       "splashDamage": 400,
       "splashDamageRadius": 40,
       "shootEffect": "shootBig2",
-      "smokeEffect": "shootSmokeTitan"
+      "smokeEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "particles": 8,
+            "length": 40,
+            "baseLength": 50,
+            "cone": 20,
+            "sizeFrom": 6,
+            "sizeTo": 2,
+            "colorFrom": "f3e979",
+            "colorTo": "ffffff",
+            "lifetime": 180
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 8,
+            "length": 40,
+            "baseLength": 50,
+            "cone": 20,
+            "sizeFrom": 6,
+            "sizeTo": 2,
+            "colorFrom": "ffffff",
+            "colorTo": "f3e979",
+            "lifetime": 180
+          }
+        ]
+      }
       "status": "shocked",
       "lightColor": "f3e979",
       "trailColor": "f3e979",
