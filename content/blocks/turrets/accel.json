@@ -111,6 +111,25 @@
     "type": "DrawTurret",
     "parts": [
       {
+        "type": "HaloPart",
+        "x": 0,
+        "y": -12,
+        "color": "f3e979",
+        "haloRadius": 4,
+        "haloRadiusTo": 4.5,
+        "hollow": true,
+        "progress": "warmup",
+        "radius": 4,
+        "radiusTo": 4.5,
+        "rotateSpeed": 2,
+        "shapes": 4,
+        "stroke": 2,
+        "strokeTo": 2.2,
+        "tri": true,
+        "triLength": 4,
+        "triLengthTo": 4.5
+      },
+      {
         "type": "RegionPart",
         "suffix": "-front",
         "progress": "recoil",
