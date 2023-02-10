@@ -14,7 +14,7 @@
   "shoot": {
     "firstShotDelay": 30 
   }
-  "heatColor": "f3e979",
+  "heatColor": "FF0000",
   "cooldownTime": 300,
   "targetGround": true,
   "ammoPerShot": 1,
