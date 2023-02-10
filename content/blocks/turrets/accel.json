@@ -13,8 +13,7 @@
   "targetAir": true,
   "shoot": {
     "firstShotDelay": 30 
-  }
-  "heatColor": "de6666",
+  },
   "cooldownTime": 300,
   "targetGround": true,
   "ammoPerShot": 1,
