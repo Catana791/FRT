@@ -1,0 +1,46 @@
+{
+  "type": "PowerTurret",
+  "name": "Accel",
+  "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
+  "size": 4,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-front",
+        "progress": "recoil",
+        "heatColor": "ff6214",
+        "mirror": true,
+        "under": true,
+        "moveX": 2,
+        "moveY": -1,
+        "moveRot": -7
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-front-glow",
+        "progress": "recoil",
+        "heatProgress": "warmup",
+        "heatColor": "ff6214",
+        "drawRegion": false,
+        "mirror": true,
+        "under": true,
+        "moveX": 2,
+        "moveY": -1,
+        "moveRot": -7
+      },
+      {
+        "type": "Regionpart",
+        "suffix": "-back",
+        "heatProgress": "warmup",
+        "mirror": true,
+        "moveX": 2.66667,
+        "moveY": -0.5,
+        "moveRot": -40,
+        "under": true,
+        "heatcolor": "ff6214"
+      }
+    ]
+  }
+}
