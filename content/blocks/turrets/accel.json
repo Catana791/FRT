@@ -20,6 +20,8 @@
   "ammoTypes": {
     "surge-alloy": {
       "type": "MissileBulletType",
+      "hitSound": "largeCannon",
+      "despawnSound": "largeCannon",
       "shrinkX": -1,
       "shrinkY": -0.5,
       "sprite": "shell",
@@ -39,7 +41,6 @@
       "splashDamageRadius": 40,
       "shootEffect": "shootBig2",
       "smokeEffect": "shootSmokeTitan"
-      "hitSound": "zap",
       "status": "shocked",
       "lightColor": "f3e979",
       "trailColor": "f3e979",
@@ -49,7 +50,6 @@
       "trailWidth": 8,
       "trailLength": 50,
       "trailChance": -1,
-      "despawnSound": "zap",
       "hitEffect": {
         "type": "MultiEffect",
         "followParent": true,
