@@ -4,7 +4,7 @@
   "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
   "size": 4,
   "reload": 240,
-  "range": 220,
+  "range": 320,
   "shootSound": "railgun",
   "unitSort": "strongest",
   "shake": 5,
