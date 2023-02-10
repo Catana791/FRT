@@ -1,8 +1,15 @@
 {
-  "type": "PowerTurret",
+  "type": "ItemTurret",
   "name": "Accel",
   "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
   "size": 4,
+  "scaledHealth": 140,
+  "ammoTypes": {
+    "copper": {
+      "speed": 1,
+      "damage": 20
+    }
+  },
   "drawer": {
     "type": "DrawTurret",
     "parts": [
