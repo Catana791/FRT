@@ -28,7 +28,7 @@
     "colors": ["f3e979", "d99f6b", "ffffff"]
   }
   "targetGround": true,
-  "ammoPerShot": 1,
+  "ammoPerShot": 2,
   "maxAmmo": 20,
   "scaledHealth": 140,
   "category": "turret",
