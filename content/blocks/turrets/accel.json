@@ -54,7 +54,8 @@
             "colorFrom": "f3e979",
             "colorTo": "ffffff",
             "lifetime": 30,
-            "lighOpacity": 0
+            "lighOpacity": 0,
+            "lightRadius": 0.0001
           },
           {
             "type": "ParticleEffect",
@@ -67,7 +68,8 @@
             "colorFrom": "ffffff",
             "colorTo": "f3e979",
             "lifetime": 30,
-            "lightOpacity": 0
+            "lightOpacity": 0,
+            "lightRadius": 0.0001
           }
         ]
       }
