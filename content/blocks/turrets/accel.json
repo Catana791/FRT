@@ -3,7 +3,7 @@
   "name": "Accel",
   "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
   "size": 4,
-  "reload": 240,
+  "reload": 360,
   "range": 420,
   "shootSound": "railgun",
   "unitSort": "strongest",
@@ -15,6 +15,7 @@
     "firstShotDelay": 30 
   }
   "heatColor": "f3e979",
+  "cooldownTime": 300,
   "targetGround": true,
   "ammoPerShot": 1,
   "maxAmmo": 20,
