@@ -4,6 +4,8 @@
   "description": "A large turret that fires electric bolts that increase their damage the further they travel.",
   "size": 4,
   "scaledHealth": 140,
+  "category": "turret",
+  "requirements": [],
   "ammoTypes": {
     "copper": {
       "speed": 1,
