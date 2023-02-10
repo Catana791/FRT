@@ -42,7 +42,7 @@
       "homingPower": 0,
       "homingRange": 0,
       "splashDamage": 150,
-      "splashDamageRadius": 40,
+      "splashDamageRadius": 24,
       "shootEffect": "shootBig2",
       "smokeEffect": {
         "type": "MultiEffect",
