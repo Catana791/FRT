@@ -104,6 +104,13 @@
             "moveX": 0,
             "moveY": -2,
             "moveRot": 3
+          },
+          {
+            "type": "PartMove",
+            "progress": "recoil",
+            "moveX": 2,
+            "moveY": -1,
+            "moveRot": -25
           }
         ]
       }
