@@ -20,7 +20,8 @@
   "ammoTypes": {
     "surge-alloy": {
       "type": "MissileBulletType",
-      "shrinkX": -4,
+      "shrinkX": -3,
+      "shrinkY": -2,
       "sprite": "shell",
       "height": 28,
       "width": 16,
