@@ -45,8 +45,8 @@
       "backColor": "f3e979",
       "lightRadius": 40,
       "lightOpacity": 0.7,
-      "trailWidth": 4,
-      "trailLength": 45,
+      "trailWidth": 8,
+      "trailLength": 50,
       "trailChance": -1,
       "despawnSound": "zap",
       "hitEffect": {
