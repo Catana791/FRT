@@ -17,13 +17,13 @@
   "cooldownTime": 300,
   "spawnBullet": {
     "type": "LaserBulletType",
-    "damage": 0,
+    "damage": 100,
     "pierce": true,
     "pierceBuilding": false,
     "status": "none",
     "statusDuration": 0,
     "length": 432,
-    "lifetime": 60,
+    "lifetime": 90,
     "width": 28,
     "colors": ["f3e979", "d99f6b", "ffffff"]
   }
@@ -48,7 +48,7 @@
       "lifetime": 72,
       "optimalLifeFract": 72,
       "pierce": true,
-      "damage": 700,
+      "damage": 600,
       "frontColor": "ffffff",
       "backColor": "f3e979",
       "homingPower": 0,
