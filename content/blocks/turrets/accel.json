@@ -11,6 +11,9 @@
   "recoil": 5,
   "rotateSpeed": 2,
   "targetAir": true,
+  "shoot": {
+    "firstShotDelay": 30 
+  }
   "heatColor": "f3e979",
   "targetGround": true,
   "ammoPerShot": 1,
