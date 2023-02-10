@@ -15,18 +15,6 @@
     "firstShotDelay": 30 
   },
   "cooldownTime": 300,
-  "spawnBullet": {
-    "type": "LaserBulletType",
-    "damage": 100,
-    "pierce": true,
-    "pierceBuilding": false,
-    "status": "none",
-    "statusDuration": 0,
-    "length": 432,
-    "lifetime": 90,
-    "width": 28,
-    "colors": ["f3e979", "d99f6b", "ffffff"]
-  }
   "targetGround": true,
   "ammoPerShot": 2,
   "maxAmmo": 20,
@@ -35,6 +23,18 @@
   "requirements": [],
   "ammoTypes": {
     "surge-alloy": {
+      "spawnBullet": {
+        "type": "LaserBulletType",
+        "damage": 100,
+        "pierce": true,
+        "pierceBuilding": false,
+        "status": "none",
+        "statusDuration": 0,
+        "length": 432,
+        "lifetime": 90,
+        "width": 28,
+        "colors": ["f3e979", "d99f6b", "ffffff"]
+      },
       "type": "MissileBulletType",
       "hitSound": "largeCannon",
       "despawnSound": "largeCannon",
