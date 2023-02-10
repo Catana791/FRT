@@ -15,6 +15,18 @@
     "firstShotDelay": 30 
   },
   "cooldownTime": 300,
+  "spawnBullet": {
+    "type": "LaserBulletType",
+    "damage": 0,
+    "pierce": true,
+    "pierceBuilding": false,
+    "status": "none",
+    "statusDuration": 0,
+    "length": 432,
+    "lifetime": 60,
+    "width": 28,
+    "colors": ["f3e979", "d99f6b", "ffffff"]
+  }
   "targetGround": true,
   "ammoPerShot": 1,
   "maxAmmo": 20,
