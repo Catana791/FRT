@@ -1,0 +1,37 @@
+{
+    "type": "Reconstructor",
+    "name": "[green]Interceptor Assembler",
+    "description": "Upgrades, to the final tier, [green]interceptor class units.",
+    "health": 1680,
+    "size": 14,
+    "constructTime": 36000,
+    "upgrades": [
+        ["plant", "corax"]
+    ],
+    "consumes": {
+        "power": 43.3333333333,
+        "liquid": {
+          "liquid": "neutron-fluid",
+          "amount": 2
+        },
+        "items": {
+            "items": [
+              "lead/3000",
+              "silicon/1500",
+              "titanium/1000",
+              "thorium/800"
+              "surge-alloy/600"
+            ]
+        }
+    },
+    "requirements": [
+      "copper/2000",
+      "lead/1800",
+      "graphite/1800",
+      "titanium/1600",
+      "thorium/900",
+      "surge-alloy/700"
+    ],
+    "category": "units",
+    "research": "interceptor-reconstructor"
+ }
