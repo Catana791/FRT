@@ -1,0 +1,28 @@
+{
+    "type": "Reconstructor",
+    "name": "[green]Interceptor Upgrader",
+    "description": "Upgrades [green]interceptor units.",
+    "health": 950,
+    "size": 5,
+    "constructTime": 600,
+    "upgrades": [
+        ["seed", "sapling"]
+    ],
+    "consumes": {
+        "power": 0.8,
+        "items": {
+            "items": [
+              "lead/500",
+              "silicon/100",
+              "titanium/50"
+            ]
+        }
+    },
+    "requirements": [
+      "copper/300",
+      "lead/200",
+      "titanium/150"
+    ],
+    "category": "units",
+    "research": "interceptor-factory"
+ }
