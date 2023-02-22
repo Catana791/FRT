@@ -3,7 +3,7 @@
     "name": "[green]Interceptor Assembler",
     "description": "Upgrades, to the final tier, [green]interceptor class units.",
     "health": 1680,
-    "size": 14,
+    "size": 13,
     "constructTime": 36000,
     "upgrades": [
         ["plant", "corax"]
