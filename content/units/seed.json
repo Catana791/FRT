@@ -56,7 +56,7 @@
     }
   ],
   "research": {
-    "parent": "mod-gate-units",
+    "parent": "interceptor-factory",
     "requirements": [
       {"item": "lead", "amount": 300},
       {"item": "silicon", "amount": 200}
