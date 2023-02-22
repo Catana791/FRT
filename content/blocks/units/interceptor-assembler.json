@@ -11,7 +11,7 @@
     "consumes": {
         "power": 43.3333333333,
         "liquid": {
-          "liquid": "neutron-fluid",
+          "liquid": "cryofluid",
           "amount": 2
         },
         "items": {
