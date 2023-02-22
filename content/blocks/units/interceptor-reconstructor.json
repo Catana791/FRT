@@ -1,0 +1,31 @@
+{
+    "type": "Reconstructor",
+    "name": "[green]Interceptor Reconstructor",
+    "description": "Upgrades, to the 3rd tier, [green]interceptor class units.",
+    "health": 1680,
+    "size": 9,
+    "constructTime": 6000,
+    "upgrades": [
+        ["sapling", "plant"]
+    ],
+    "consumes": {
+        "power": 2.8,
+        "items": {
+            "items": [
+              "lead/1000",
+              "silicon/750",
+              "titanium/500",
+              "thorium/200"
+            ]
+        }
+    },
+    "requirements": [
+      "copper/2000",
+      "lead/1800",
+      "graphite/1800",
+      "titanium/1600",
+      "thorium/900"
+    ],
+    "category": "units",
+    "research": "interceptor-upgrader"
+ }
