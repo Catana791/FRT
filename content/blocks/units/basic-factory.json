@@ -10,8 +10,8 @@
     {
       "unit": "seed",
       "requirements": [
-        {"item": "lead", "amount": 30},
-        {"item": "silicon", "amount": 20}
+        "lead/30",
+        "silicon/20"
       ],
       "time": 800
     }
