@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "[green]Interceptor Reconstructor",
-    "description": "Upgrades, to the 3rd tier, [green]interceptor class units.",
+    "name": "Advanced Reassembly Chamber",
+    "description": "Upgrades units to the 3rd tier. These upgraded units may be upgraded a final time.",
     "health": 1680,
     "size": 9,
     "constructTime": 6000,
