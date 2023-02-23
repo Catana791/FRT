@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "[green]Interceptor Upgrader",
-    "description": "Upgrades [green]interceptor units.",
+    "name": "Basic Reassembly Chamber",
+    "description": "Upgrades units created in the Basic Factory to the next tier. Units produced by this Reassembly Chamber may be further upgraded.",
     "health": 950,
     "size": 5,
     "constructTime": 600,
