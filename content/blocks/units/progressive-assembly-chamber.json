@@ -1,7 +1,7 @@
 {
     "type": "Reconstructor",
-    "name": "[green]Interceptor Assembler",
-    "description": "Upgrades, to the final tier, [green]interceptor class units.",
+    "name": "Progressive Assembly Chamber",
+    "description": "Upgrades units to the 4th and final tier.",
     "health": 1680,
     "size": 13,
     "constructTime": 36000,
@@ -33,5 +33,5 @@
       "surge-alloy/700"
     ],
     "category": "units",
-    "research": "interceptor-reconstructor"
+    "research": "advanced-reassembly-chamber"
  }
