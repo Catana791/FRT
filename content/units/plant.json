@@ -1,5 +1,5 @@
 {
-  "type": "flying",
+  "type": "Payload",
   "name": "[green]Sapling",
   "description": "A large support drone with decent health and very high healing capabilities.",
   "abilities": [
@@ -32,19 +32,18 @@
     }
   ],
   "lowAltitude": true,
-  "mineSpeed": 3,
-  "mineTier": 5,
+  "payloadCapacity": 72,
   "canAttack": false,
   "buildSpeed": 3,
   "canAttack": false,
   "engineColor": "84f491",
   "engineColorInner": "62ae7f",
-  "armor": 6,
-  "itemCapacity": 60,
+  "armor": 8,
+  "itemCapacity": 160,
   "speed": 1.9,
   "canHeal": true,
   "drawBuildBeam": true,
-  "health": 1580,
+  "health": 7100,
   "mineHardnessScaling": true,
   "flying": true,
   "controller": "RepairAI",
@@ -105,14 +104,6 @@
       "y": -20
     }
   ],
-  "research": {
-    "parent": "sapling",
-    "requirements": [
-      {"item": "lead", "amount": 10000},
-      {"item": "silicon", "amount": 7500},
-      {"item": "titanium", "amount": 5000},
-      {"item": "thorium", "amount": 2000}
-    ]
-  },
+  "research": "sapling",
   "hitSize": 30
 }
