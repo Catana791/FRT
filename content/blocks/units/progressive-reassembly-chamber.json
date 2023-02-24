@@ -2,35 +2,34 @@
     "type": "Reconstructor",
     "name": "Progressive Assembly Chamber",
     "description": "Upgrades units to the 4th and final tier.",
-    "health": 1680,
+    "health": 7200,
     "size": 13,
     "constructTime": 36000,
     "upgrades": [
         ["plant", "corax"]
     ],
     "consumes": {
-        "power": 43.3333333333,
+        "power": 30,
         "liquid": {
-          "liquid": "cryofluid",
-          "amount": 2
+          "liquid": "neutron-fluid",
+          "amount": 6,66666667
         },
         "items": {
             "items": [
-              "lead/3000",
-              "silicon/1500",
-              "titanium/1000",
-              "thorium/800"
-              "surge-alloy/600"
+              "silicon/1200",
+                "plastanium/660",
+                "surge-alloy/550",
+                "phase-fabric/450"
             ]
         }
     },
     "requirements": [
-      "copper/2000",
-      "lead/1800",
-      "graphite/1800",
-      "titanium/1600",
-      "thorium/900",
-      "surge-alloy/700"
+      "lead/4500",
+        "thorium/1500",
+        "silicon/3800",
+        "plastanium/700",
+        "phase-fabric/700",
+        "surge-alloy/920"
     ],
     "category": "units",
     "research": "advanced-reassembly-chamber"
