@@ -4,7 +4,7 @@
     "description": "Upgrades units created in the Basic Factory to the next tier. Units produced by this Reassembly Chamber may be further upgraded.",
     "health": 1550,
     "size": 5,
-    "constructTime": 2700,
+    "constructTime": 3600,
     "upgrades": [
         ["seed", "sapling"]
     ],
