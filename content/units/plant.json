@@ -32,7 +32,7 @@
     }
   ],
   "lowAltitude": true,
-  "payloadCapacity": 256,
+  "payloadCapacity": 1024,
   "canAttack": false,
   "buildSpeed": 3,
   "canAttack": false,
