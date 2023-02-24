@@ -9,5 +9,5 @@
   "flammability": 0,
   "research": "living-steel-liquid",
   "coolant": true,
-  "effect": "me-neutron-frozen"
+  "effect": "frt-neutron-frozen"
 }
