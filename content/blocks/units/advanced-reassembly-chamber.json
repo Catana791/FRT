@@ -10,21 +10,24 @@
     ],
     "consumes": {
         "power": 2.8,
+        "liquids": [
+            "liquid": "neutron-fluid",
+            "amount": 3.3333333333333
+        ],
         "items": {
             "items": [
-              "lead/1000",
-              "silicon/750",
-              "titanium/500",
-              "thorium/200"
+              "silicon/1000",
+              "titanium/900",
+              "plastanium/720"
             ]
         }
     },
     "requirements": [
-      "copper/2000",
-      "lead/1800",
-      "graphite/1800",
-      "titanium/1600",
-      "thorium/900"
+      "lead/2200",
+      "titanium/2100",
+      "thorium/900",
+      "plastanium/520",
+      "phase-fabric/640"
     ],
     "category": "units",
     "research": "basic-reassembly-chamber"
