@@ -9,7 +9,7 @@
         ["sapling", "plant"]
     ],
     "consumes": {
-        "power": 2.8,
+        "power": 13.3333333333333,
         "liquids": [
             "liquid": "neutron-fluid",
             "amount": 3.3333333333333
