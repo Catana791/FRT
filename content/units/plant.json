@@ -1,5 +1,5 @@
 {
-  "type": "Payload",
+  "type": "payload",
   "name": "[green]Sapling",
   "description": "A large support drone with decent health and very high healing capabilities.",
   "abilities": [
@@ -32,7 +32,7 @@
     }
   ],
   "lowAltitude": true,
-  "payloadCapacity": 72,
+  "payloadCapacity": 256,
   "canAttack": false,
   "buildSpeed": 3,
   "canAttack": false,
