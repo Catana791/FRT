@@ -2,7 +2,7 @@
     "type": "Reconstructor",
     "name": "Advanced Reassembly Chamber",
     "description": "Upgrades units to the 3rd tier. These upgraded units may be upgraded a final time.",
-    "health": 1680,
+    "health": 3400,
     "size": 9,
     "constructTime": 6000,
     "upgrades": [
