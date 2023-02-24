@@ -1,5 +1,5 @@
 {
-  "type": "Payload",
+  "type": "payload",
   "name": "[green]Sprout",
   "description": "A medium sized support drone with mediocre health but high healing capabilities.",
   "abilities": [
@@ -46,7 +46,7 @@
   "health": 680,
   "mineHardnessScaling": true,
   "flying": true,
-  "payloadCapacity": 24,
+  "payloadCapacity": 512,
   "controller": "RepairAI",
   "defaultCommand": "repairCommand",
   "lowAltitude": true,
