@@ -54,7 +54,7 @@
       "mirror": false,
       "predictTarget": true,
       "shootSound": "laserblast",
-      "chargeSound": "laserCharge",
+      "chargeSound": "lasercharge",
       "soundPitchMin": 1.1,
       "top": false,
       "recoil": 2,
@@ -76,7 +76,7 @@
     },
     {
       "name": "heal-laser-mount",
-      "x": -25,
+      "x": 25,
       "y": 8,
       "reload": 240,
       "shoot": {
@@ -85,7 +85,7 @@
       "mirror": false,
       "predictTarget": true,
       "shootSound": "laserblast",
-      "chargeSound": "laserCharge",
+      "chargeSound": "lasercharge",
       "soundPitchMin": 1.1,
       "top": false,
       "recoil": 2,
