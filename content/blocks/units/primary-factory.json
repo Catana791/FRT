@@ -1,6 +1,6 @@
 {
   "type": "unitFactory",
-  "name": "Basic Factory Factory",
+  "name": "Primary Factory",
   "description": "Creates small and light units which may be upgraded using Reassembly Chambers.",
   "size": 3,
   "consumes": {
@@ -11,9 +11,9 @@
       "unit": "seed",
       "requirements": [
         "lead/30",
-        "silicon/20"
+        "silicon/30"
       ],
-      "time": 800
+      "time": 2400
     }
   ],
   "requirements": [
