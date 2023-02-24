@@ -12,7 +12,7 @@
         "power": 13.3333333333333,
         "liquid": {
             "liquid": "neutron-fluid",
-            "amount": 3.3333333333333
+            "amount": 0.333333333333333
         },
         "items": {
             "items": [
