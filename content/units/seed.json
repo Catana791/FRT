@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "[green]Seed",
-  "description": "A small support drone with low health.",
+  "description": "A small support drone with low health. Similar to a Mono but has a repair field ability, can build slowly and has overall slightly improved stats.",
   "abilities": [
     {
       "type": "RepairFieldAbility", 
@@ -17,50 +17,23 @@
       }
     },
   ],
-  "mineSpeed": 1.1,
+  "mineSpeed": 2.8,
   "mineTier": 1,
   "canAttack": false,
-  "buildSpeed": 1.5,
+  "buildSpeed": 0.2,
   "canAttack": false,
   "engineColor": "84f491",
   "engineColorInner": "62ae7f",
   "armor": 0,
-  "itemCapacity": 30,
-  "speed": 1.5,
+  "itemCapacity": 25,
+  "speed": 1.6,
   "canHeal": true,
   "drawBuildBeam": true,
   "health": 250,
   "mineHardnessScaling": true,
   "flying": true,
-  "controller": "RepairAI",
-  "weapons": [
-    {
-      "name": "nothing",
-      "mirror": false,
-      "shootSound": "laser",
-      "x": 0,
-      "y": 2,
-      "reload": 40,
-      "rotate": false,
-      "noAttack": true,
-      "bullet": {
-        "type": "LaserBulletType",
-        "damage": 5,
-        "healPercent": 10,
-        "length": 80,
-        "colors": ["84f491", "ffffff", "62ae7f"]
-        "collidesTeam": true,
-        "collidesTiles": true,
-        "collidesAir": true
-      }
-    }
-  ],
-  "research": {
-    "parent": "interceptor-factory",
-    "requirements": [
-      {"item": "lead", "amount": 300},
-      {"item": "silicon", "amount": 200}
-    ]
-  },
+  "controller": "MinerAI",
+  "weapons": [],
+  "research": "primary-factory",
   "hitSize": 8
 }
