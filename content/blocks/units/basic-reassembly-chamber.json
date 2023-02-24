@@ -20,9 +20,11 @@
         }
     },
     "requirements": [
-      "copper/300",
-      "lead/200",
-      "titanium/150"
+      "copper/200",
+      "lead/820",
+      "silicon/600",
+      "titanium/420",
+      "thorium/700"
     ],
     "category": "units",
     "research": "primary-factory"
