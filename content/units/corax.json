@@ -44,6 +44,68 @@
   "drawShields": false,
   "weapons": [
     {
+      "name": "heal-laser-mount",
+      "x": -25,
+      "y": 8,
+      "reload": 180,
+      "shoot": {
+        "firstShotDelay": 90
+      },
+      "mirror": false,
+      "predictTarget": true,
+      "shootSound": "laserblast",
+      "chargeSound": "laserCharge",
+      "soundPitchMin": 1.1,
+      "top": false,
+      "recoil": 2,
+      "shake": 2,
+      "bullet": {
+        "type": "LaserBulletType",
+        "width": 30,
+        "damage": 90,
+        "length": 200,
+        "lifetime": 100,
+        "largeHit": true,
+        "chargeEffect": "greenLaserCharge"
+        "lightColor": "92e02f",
+        "lightningColor": "92e02f",
+        "healPercent": 30,
+        "collidesTeam": true,
+        "colors": ["6fa629", "92e02f", "ffffff"]
+      }
+    },
+    {
+      "name": "heal-laser-mount",
+      "x": -25,
+      "y": 8,
+      "reload": 240,
+      "shoot": {
+        "firstShotDelay": 90
+      },
+      "mirror": false,
+      "predictTarget": true,
+      "shootSound": "laserblast",
+      "chargeSound": "laserCharge",
+      "soundPitchMin": 1.1,
+      "top": false,
+      "recoil": 2,
+      "shake": 2,
+      "bullet": {
+        "type": "LaserBulletType",
+        "width": 30,
+        "damage": 90,
+        "length": 200,
+        "lifetime": 100,
+        "largeHit": true,
+        "chargeEffect": "greenLaserCharge"
+        "lightColor": "92e02f",
+        "lightningColor": "92e02f",
+        "healPercent": 30,
+        "collidesTeam": true,
+        "colors": ["6fa629", "92e02f", "ffffff"]
+      }
+    },
+    {
       "name": "nothing",
       "predictTarget": true,
       "x": 0,
@@ -84,7 +146,7 @@
         "sideAngle": 15,
         "sideWidth": 0,
         "sideLength": 0,
-        "colors": ["6fa629", "92e02f", "ffffff"],
+        "colors": ["6fa629", "92e02f", "ffffff"]
       }
     }
   ],
