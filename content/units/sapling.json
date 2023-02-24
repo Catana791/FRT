@@ -48,7 +48,6 @@
   "flying": true,
   "payloadCapacity": 512,
   "controller": "RepairAI",
-  "defaultCommand": "UnitCommand.repairCommand",
   "lowAltitude": true,
   "weapons": [
     {
