@@ -17,7 +17,7 @@
       }
     },
   ],
-  "mineSpeed": 2.8,
+  "mineSpeed": 2,
   "mineTier": 1,
   "canAttack": false,
   "buildSpeed": 0.2,
