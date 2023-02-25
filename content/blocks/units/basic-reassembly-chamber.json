@@ -12,10 +12,10 @@
         "power": 0.8,
         "items": {
             "items": [
-              "silicon/200",
-              "graphite/60", 
-              "titanium/90",
-              "metaglass/50"
+              "silicon/300",
+              "graphite/120", 
+              "titanium/180",
+              "metaglass/100"
             ]
         }
     },
