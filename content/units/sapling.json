@@ -32,7 +32,7 @@
     }
   ],
   "lowAltitude": true,
-  "mineSpeed": 4.8,
+  "mineSpeed": 4,
   "mineTier": 3,
   "canAttack": false,
   "buildSpeed": 3.2,
