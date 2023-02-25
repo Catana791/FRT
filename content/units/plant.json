@@ -34,7 +34,7 @@
   "lowAltitude": true,
   "payloadCapacity": 1024,
   "canAttack": false,
-  "buildSpeed": 3,
+  "buildSpeed": 3.8,
   "canAttack": false,
   "engineColor": "84f491",
   "engineColorInner": "62ae7f",
