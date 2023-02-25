@@ -68,7 +68,6 @@
         "length": 200,
         "lifetime": 100,
         "largeHit": true,
-        "chargeEffect": "greenLaserCharge"
         "lightColor": "92e02f",
         "lightningColor": "92e02f",
         "healPercent": 30,
@@ -100,7 +99,6 @@
         "length": 200,
         "lifetime": 100,
         "largeHit": true,
-        "chargeEffect": "greenLaserCharge"
         "lightColor": "92e02f",
         "lightningColor": "92e02f",
         "healPercent": 30,
