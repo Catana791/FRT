@@ -1,6 +1,7 @@
 name: "[green]Alopex"
 description: "A close range unit with high burst damage and speed but low health."
 flying: true
+type: "flying"
 details:
 '''
 Taking much inspiration from its predecessor, the Galti Attack Drone or more commonly known as the 'Alopex' is a rather significant step up in terms of attack speed and max velocity. However, in terms of health the unit is noticeably worse of. 
