@@ -6,7 +6,8 @@
     "size": 9,
     "constructTime": 6000,
     "upgrades": [
-        ["sapling", "plant"]
+        ["sapling", "plant"],
+        ["close-range", "kestrel"]
     ],
     "consumes": {
         "power": 13.3333333333333,
