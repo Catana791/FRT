@@ -16,7 +16,8 @@
         },
         "items": {
             "items": [
-              "silicon/1200",
+              "silicon/800",
+                "living-steel/600",
                 "plastanium/660",
                 "surge-alloy/550",
                 "phase-fabric/450"
