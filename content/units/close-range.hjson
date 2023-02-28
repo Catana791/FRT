@@ -19,7 +19,8 @@ circleTarget: true
 rotateSpeed: 8
 lowAltitude: true
 omniMovement: true
-engineOffset: -30
+engineOffset: 20
+engineSize: 12
 weapons: [ 
   {
     name: nothing
