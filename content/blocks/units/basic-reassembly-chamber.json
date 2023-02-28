@@ -6,7 +6,8 @@
     "size": 5,
     "constructTime": 3600,
     "upgrades": [
-        ["seed", "sapling"]
+        ["seed", "sapling"],
+        ["lancer-drone", "close-range"]
     ],
     "consumes": {
         "power": 0.8,
