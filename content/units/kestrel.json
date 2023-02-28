@@ -10,7 +10,7 @@
   "lowAltitude": true,
   "itemCapacity": 200,
   "engineSize": 8,
-  "engineOffset": 35,
+  "engineOffset": 27,
   "weapons": [
     {
       "name": "king-main",
