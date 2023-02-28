@@ -26,7 +26,7 @@
         "lifetime": 180,
         "fadeTime": 20,
         "colors": ["d06b53", "d18877", "ffa665"],
-        "damage": 10,
+        "damage": 7,
         "length": 240,
         "makeFire": true,
         "pierceBuilding": false,
@@ -48,7 +48,7 @@
       "bullet": {
         "type": "LightningBulletType",
         "lightningLength": 35,
-        "damage": 10
+        "damage": 5
       }
     },
     {
@@ -65,7 +65,7 @@
       "bullet": {
         "type": "LightningBulletType",
         "lightningLength": 35,
-        "damage": 10
+        "damage": 5
       }
     },
     {
@@ -81,7 +81,7 @@
         "type": "LaserBulletType",
         "colors": ["d06b53", "d18877", "ffa665"],
         "length": 200,
-        "damage": 60,
+        "damage": 40,
         "makeFire": true,
         "status": "burning",
         "statusDuration": 60
