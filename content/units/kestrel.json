@@ -1,21 +1,14 @@
 {
   "type": "flying",
   "name": "[green]Kestrel",
-  "description": "The last unit of the Areus unit tree. Fast and equipped with many energy weapons, this unit will help you to destroy your enemies.",
-  "speed": 5,
-  "research": {
-     "parent": "close-range",
-    "requirements": [
-      {"item": "lead", "amount": 10000},
-      {"item": "silicon", "amount": 7500},
-      {"item": "titanium", "amount": 5000},
-      {"item": "thorium", "amount": 2000}
-      ]
-  },
+  "description": "Leaving behind the extreme fragility but also the extreme speed of the earlier stages of this unit, this units is fast and equipped with many energy weapons.",
+  "speed": 3,
+  "research": "close-range",
   "flying": true,
-  "health": 2000,
-  "armor": 6,
+  "health": 8600,
+  "armor": 10,
   "lowAltitude": true,
+  "itemCapacity": 200,
   "weapons": [
     {
       "name": "king-main",
