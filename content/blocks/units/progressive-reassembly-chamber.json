@@ -6,7 +6,8 @@
     "size": 13,
     "constructTime": 21600,
     "upgrades": [
-        ["plant", "corax"]
+        ["plant", "corax"],
+        ["kestrel", "sps"]
     ],
     "consumes": {
         "power": 30,
