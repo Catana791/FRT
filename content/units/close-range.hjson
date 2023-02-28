@@ -8,7 +8,7 @@ Taking much inspiration from its predecessor, the Galti Attack Drone or more com
 Originally conceptualized as a melee or kamakaze unit the 'Alopex' was redesigned after major flaws with the 'blades' were found. However this would not be the end of the 'Alopex's problems as the now rapid technological growth made melee combat ineffective, eventually the 'Alopex' replaced its old and bulky circuits systems with new living metal circuits allowing for more power generation and the outfitting of high consumption weaponry. 
 '''
 speed: 5
-health: 110
+health: 320
 aimDst: 15
 drag: 0.055
 accel: 0.075
@@ -18,6 +18,7 @@ circleTarget: true
 rotateSpeed: 8
 lowAltitude: true
 omniMovement: true
+engineOffset: -10
 weapons: [ 
   {
     name: nothing
@@ -40,4 +41,5 @@ weapons: [
     }
   }
 ]
-research: "lancer-drone"
+research: "lancer-drone",
+hitSize: 17
