@@ -62,7 +62,7 @@
         "type": "LaserBulletType",
         "hitShake": 4,
         "length": 320,
-        "damage": 1200,
+        "damage": 600,
         "lifetime": 90,
         "largeHit": true,
         "status": "frt-emp",
