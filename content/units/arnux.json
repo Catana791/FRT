@@ -88,11 +88,37 @@
         "lightColor": "ff9c5a",
         "lightOpacity": 0.7,
         "lightRadius": 40,
-        "trailEffect": "instTrail",
+        "trailEffect": {
+         "type": "MultiEffect",
+          "effects": [
+            {
+              "type": "ParticleEffect",
+              "colorFrom": "ec7458aa",
+              "colorTo": "ff9c5a",
+              "length": 10,
+              "baseLength": 20,
+              "sizeInterp": "pow2Out",
+              "interp": "pow2In",
+              "particles": 5,
+              "cone": 10
+            },
+             {
+              "type": "ParticleEffect",
+              "colorFrom": "ec7458aa",
+              "colorTo": "ff9c5a",
+              "length": 20,
+              "baseLength": 10,
+              "sizeInterp": "pow2In",
+              "interp": "pow2Out",
+              "particles": 5,
+              "cone": 10
+            }
+          ]
+        },
         "trailChance": -1,
         "sprite": "frt-emp-bullet",
         "speed": 4,
-        "spin": 12,
+        "spin": 40,
         "frontColor": "ec7458aa",
         "backColor": "ff9c5a",
         "pierce": true,
