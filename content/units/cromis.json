@@ -39,7 +39,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "speed": 3,
-        "damage": 10,
+        "damage": 22,
         "splashDamage": 8,
         "splashDamageRadius": 16,
         "homingRange": 90,
@@ -87,7 +87,7 @@
         },
         "type": "LaserBulletType",
         "length": 260,
-        "damage": 120,
+        "damage": 160,
         "lifetime": 90,
         "largeHit": true,
         "status": "frt-emp",
