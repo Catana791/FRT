@@ -96,7 +96,7 @@
         "lifetime": 90,
         "largeHit": true,
         "status": "frt-emp",
-        "statusDuration": 120,
+        "statusDuration": 60,
         "sideLength": 20,
         "sideWidth": 4,
         "sideAngle": 30,
