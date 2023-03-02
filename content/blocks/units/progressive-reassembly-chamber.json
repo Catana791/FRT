@@ -7,7 +7,8 @@
     "constructTime": 21600,
     "upgrades": [
         ["plant", "corax"],
-        ["kestrel", "sps"]
+        ["kestrel", "sps"],
+        ["arnux", "japonica"]
     ],
     "consumes": {
         "power": 30,
