@@ -54,13 +54,14 @@
       "y": -8,
       "reload": 240,
       "shoot": {
+        "type": "ShootSpread",
         "firstShotDelay": 45,
         "shots": 2,
         "shotDelay": 20,
         "spread": 20
       },
       "rotate": true,
-      "chargeSound": "lasecharge2",
+      "chargeSound": "lasercharge2",
       "mirror": false,
       "bullet": {
         "chargeEffect": {
@@ -71,30 +72,30 @@
             {
               "type": "WaveEffect",
               "sizeFrom": 0,
-              "sizeTo": 40,
+              "sizeTo": 20,
               "sizeInterp": "pow2Out",
               "interp": "pow2Out"
             },
             {
               "type": "WaveEffect",
-              "sizeFrom": 45,
-              "sizeTo": 5,
+              "sizeFrom": 22,
+              "sizeTo": 2,
               "sizeInterp": "pow2Out",
               "interp": "pow2Out"
             }
           ]
         },
         "type": "LaserBulletType",
-        "length": 160,
+        "length": 260,
         "damage": 120,
         "lifetime": 90,
-        "fadeTime": 30, 
         "largeHit": true,
         "status": "frt-emp",
         "statusDuration": 120,
         "sideLength": 20,
         "sideWidth": 4,
-        "sideAngle": 30
+        "sideAngle": 30,
+        "colors": ["ec7458aa", "ff9c5a", "ffffff"]
       } 
     }
   ],
