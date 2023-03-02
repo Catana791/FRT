@@ -50,6 +50,10 @@
     },
     {
       "name": "large-artillery",
+      "continuous": true,
+      "shootStatus": "unmoving",
+      "shootStatusDuration": 60,
+      "parentizeEffects": true,
       "x": 0,
       "y": -7,
       "reload": 240,
