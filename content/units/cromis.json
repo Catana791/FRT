@@ -1,0 +1,102 @@
+{
+  "type": "naval",
+  "name": "Cromis",
+  "description": "A medium sized naval unit equipped with advanced weaponry that inflicts emp on hit targets.",
+  "health": 1180,
+  "armor": 7,
+  "hitSize": 15,
+  "speed": 0.92,
+  "accel": 0.25,
+  "drag": 0.17,
+  "faceTarget": false,
+  "rotateSpeed": 2,
+  "trailLength": 20,
+  "waveTrailX": 6,
+  "waveTrailY": -8,
+  "trailScl": 1.5,
+  "abilities": [
+    {
+      "type": "ShieldRegenFieldAbility",
+      "amount": 25,
+      "max": 42,
+      "reload": 300,
+      "range": 64
+    }
+  ],
+  "weapons": [
+    {
+      "name": "missiles-mount",
+      "reload": 40,
+      "x": 0,
+      "y": 10,
+      "rotate": true,
+      "mirror": false,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 8,
+      },
+      "shootSound": "missile",
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3,
+        "damage": 10,
+        "splashDamage": 8,
+        "splashDamageRadius": 16,
+        "homingRange": 90,
+        "lifetime": 90,
+        "pierce": true,
+        "pierceCap": 1
+      }
+    },
+    {
+      "name": "large-artillery",
+      "x": 0,
+      "y": -8,
+      "reload": 240,
+      "shoot": {
+        "firstShotDelay": 45,
+        "shots": 2,
+        "shotDelay": 20,
+        "spread": 20
+      },
+      "rotate": true,
+      "chargeSound": "lasecharge2",
+      "mirror": false,
+      "bullet": {
+        "chargeEffect": {
+          "type": "MultiEffect",
+          "followParent": true,
+          "lifetime": 45,
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "sizeFrom": 0,
+              "sizeTo": 40,
+              "sizeInterp": "pow2Out",
+              "interp": "pow2Out"
+            },
+            {
+              "type": "WaveEffect",
+              "sizeFrom": 45,
+              "sizeTo": 5,
+              "sizeInterp": "pow2Out",
+              "interp": "pow2Out"
+            }
+          ]
+        },
+        "type": "LaserBulletType",
+        "length": 160,
+        "damage": 120,
+        "lifetime": 90,
+        "fadeTime": 30, 
+        "largeHit": true,
+        "status": "frt-emp",
+        "statusDuration": 120,
+        "sideLength": 20,
+        "sideWidth": 4,
+        "sideAngle": 30
+      } 
+    }
+  ],
+  "research": "mela"
+}
