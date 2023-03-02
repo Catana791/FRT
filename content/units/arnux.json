@@ -27,7 +27,7 @@
       "alternate": true,
       "rotate": true,
       "shootY": 7,
-      "shake": 3,
+      "shake": 6,
       "shoot": {
         "shots": 3,
         "shotDelay": 8,
@@ -76,7 +76,7 @@
     {
       "name": "large-artillery",
       "reload": 120,
-      "shake": 3,
+      "shake": 7,
       "mirror": false,
       "x": 0,
       "y": 8,
