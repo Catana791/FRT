@@ -119,7 +119,7 @@
         "sprite": "frt-emp-bullet",
         "speed": 4,
         "pierce": true,
-        "spin": 40,
+        "spin": 60,
         "frontColor": "ec7458aa",
         "backColor": "ff9c5a",
         "pierce": true,
