@@ -7,7 +7,8 @@
     "constructTime": 3600,
     "upgrades": [
         ["seed", "sapling"],
-        ["lancer-drone", "close-range"]
+        ["lancer-drone", "close-range"],
+        ["mela", "cromis"]
     ],
     "consumes": {
         "power": 0.8,
