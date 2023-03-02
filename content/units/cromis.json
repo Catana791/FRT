@@ -55,11 +55,7 @@
       "reload": 240,
       "shootSound": "laser"
       "shoot": {
-        "type": "ShootSpread",
         "firstShotDelay": 45,
-        "shots": 2,
-        "shotDelay": 20,
-        "spread": 6
       },
       "rotate": true,
       "chargeSound": "lasercharge2",
