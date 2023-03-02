@@ -14,7 +14,7 @@
   "weapons": [
     {
       "x": 0,
-      "y": -2,
+      "y": 2,
       "reload": 10,
       "rotate": true,
       "name": "missiles-mount",
