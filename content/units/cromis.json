@@ -40,7 +40,7 @@
       "bullet": {
         "type": "MissileBulletType",
         "speed": 3,
-        "damage": 22,
+        "damage": 30,
         "splashDamage": 8,
         "splashDamageRadius": 16,
         "homingRange": 90,
