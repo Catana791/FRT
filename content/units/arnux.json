@@ -20,6 +20,7 @@
       "reload": 480,
       "inaccuracy": 14,
       "cooldownTime": 90,
+      "continuous": true,
       "x": 17.5,
       "y": -16.5,
       "rotateSpeed": 4,
@@ -30,11 +31,11 @@
       "shake": 3,
       "shoot": {
         "shots": 3,
-        "shotDelay": 4,
-        "firstShotDelay": 90
+        "shotDelay": 8,
+        "firstShotDelay": 120
       },
       "chargeSound": "lasercharge",
-      "shootSound": "shootBig",
+      "shootSound": "laser",
       "ejectEffect": "none",
       "recoil": 4,
       "bullet": {
@@ -98,6 +99,9 @@
         "status": "emp",
         "statusDuration": 60,
         "damage": 120,
+        "width": 40,
+        "height": 40,
+        "lifetime": 300
       }
     }
   ]
