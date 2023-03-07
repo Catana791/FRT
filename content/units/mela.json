@@ -33,7 +33,6 @@
       }
     },
     {
-      "minShootVelocity": 0.9,
       "x": -3,
       "shootY": 0,
       "shootCone": 180,
@@ -46,7 +45,7 @@
         "width": 12,
         "hitSize": 12,
         "damage": 5,
-        "sprite": "me-lml-mine"
+        "sprite": "frt-lml-mine"
         "frontColor": "d99f6b",
         "shrinkX": 0,
         "shrinkY": 0,
