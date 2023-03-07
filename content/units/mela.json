@@ -43,6 +43,10 @@
       "ignoreRotation": true,
       "shootSound": "none",
       "bullet": {
+        "speed": 0,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "lifetime": 150,
         "type": "BasicBulletType",
         "sprite": "frt-lml-mine",
         "damage": 0,
