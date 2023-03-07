@@ -33,14 +33,12 @@
       }
     },
     {
-      "minShootVelocity": 0.6,
+      "minShootVelocity": 0.9,
       "x": -3,
       "shootY": 0,
       "shootCone": 180,
       "ejectEffect": "none",
-      "inaccuracy": 15,
       "reload": 180,
-      "ignoreRotation": true,
       "shootSound": "none",
       "bullet": {
         "speed": 0,
