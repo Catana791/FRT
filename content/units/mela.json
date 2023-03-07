@@ -23,13 +23,36 @@
       "bullet": {
         "type": "BasicBulletType",
         "speed": 3,
-        "damage": 18,
+        "damage": 15,
         "pierce": true,
         "pierceCap": 3,
         "width": 9,
         "height": 11,
         "lifetime": 90,
         "ammoMultiplier": 6
+      }
+    },
+    {
+      "minShootVelocity": 0.6,
+      "x": -3,
+      "shootY": 0,
+      "shootCone": 180,
+      "ejectEffect": "none",
+      "inaccuracy": 15,
+      "reload": 180,
+      "ignoreRotation": true,
+      "shootSound": "none",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "frt-lml-mine",
+        "damage": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 30,
+        "width": 12,
+        "height": 12,
+        "hitEffect": "flakExplosion",
+        "shootEffect": "none",
+        "smokeEffect": "none"
       }
     }
   ],
