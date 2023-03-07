@@ -41,7 +41,7 @@
       "rotate": false,
       "baseRotation": 180,
       "alwaysShooting": true,
-      "shootMinVelocity": 0.9,
+      "minShootVelocity": 0.9,
       "bullet": {
         "instantDisappear": true,
         "fragBullets": 1,
