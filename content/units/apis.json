@@ -20,7 +20,7 @@
       "shootCone": 30,
       "shootSound": "railgun",
       "bullet": {
-        "maxRange": 120,
+        "maxRange": 160,
         "type": "PointBulletType",
         "trailEffect": {
           "type": "ParticleEffect",
@@ -34,7 +34,8 @@
           "sizeTo": 5,
           "sizeInterp": "pow2Out"
         },
-        "speed": 12,
+        "speed": 8,
+        "lifetime": 20,
         "hitEffect": "none",
         "despawnEffect": "none"
         "damage": 0,
