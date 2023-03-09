@@ -18,7 +18,9 @@
       "name": "nothing",
       "rotate": false,
       "shootCone": 30,
+      "shootSound": "railgun",
       "bullet": {
+        "maxRange": 120,
         "type": "PointBulletType",
         "trailEffect": {
           "type": "ParticleEffect",
