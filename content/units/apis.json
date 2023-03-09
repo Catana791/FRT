@@ -35,12 +35,12 @@
         "speed": 12,
         "hitEffect": "none",
         "despawnEffect": "none"
-        "damage": 170,
-        "pierce": true,
-        "pierceBuilding": true,
-        "buildingDamageMultiplier": 0.2,
-        "impact": true,
-        "recoil": 10
+        "damage": 0,
+        "splashDamage": 170,
+        "splashDamageRadius": 32,
+        "hitEffect": "instHit",
+        "despawnHit": true,
+        "pierce": true
       }
     }
   ],
