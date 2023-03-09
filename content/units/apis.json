@@ -1,0 +1,47 @@
+{
+  "type": "flying",
+  "name": "Apis",
+  "description": "A small laser-based assault unit.",
+  "health": 180,
+  "armor": 0,
+  "hitSize": 8,
+  "flying": true,
+  "itemCapacity": 20,
+  "speed": 0.6,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 2,
+      "reload": 180,
+      "mirror": false,
+      "top": false,
+      "name": "nothing",
+      "rotate": false,
+      "shootCone": 30,
+      "bullet": {
+        "type": "PointBulletType",
+        "trailEffect": {
+          "type": "ParticleEffect",
+          "particles": 16,
+          "rotWithParent": true,
+          "length": 10,
+          "colorFrom": "c85c51",
+          "colorTo": "ff795e",
+          "sizeFrom": 10,
+          "sizeTo": 9,
+          "sizeInterp": "pow2Out"
+        },
+        "speed": 12,
+        "hitEffect": "none",
+        "despawnEffect": "none"
+        "damage": 170,
+        "pierce": true,
+        "pierceBuilding": true,
+        "buildingDamageMultiplier": 0.2,
+        "impact": true,
+        "recoil": 10
+      }
+    }
+  ],
+  "research": "primary-factory"
+}
