@@ -8,7 +8,8 @@
     "upgrades": [
         ["plant", "corax"],
         ["kestrel", "sps"],
-        ["arnux", "japonica"]
+        ["arnux", "japonica"],
+        ["ducalis", "hive"]
     ],
     "consumes": {
         "power": 30,
