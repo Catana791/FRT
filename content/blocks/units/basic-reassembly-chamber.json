@@ -8,7 +8,8 @@
     "upgrades": [
         ["seed", "sapling"],
         ["lancer-drone", "close-range"],
-        ["mela", "cromis"]
+        ["mela", "cromis"],
+        ["apis", "procer"]
     ],
     "consumes": {
         "power": 0.8,
