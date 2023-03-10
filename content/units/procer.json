@@ -1,0 +1,75 @@
+{
+  "type": "flying",
+  "hovering": true,
+  "name": "Procer",
+  "description": "A medium sized unit made for assault.",
+  "health": 1100,
+  "hitSize": 17.5,
+  "lowAltitude": true,
+  "armor": 9,
+  "speed": 1.2,
+  "itemCapacity": 25,
+  "parts": [
+    {
+      "type": "HoverPart",
+      "x": -10,
+      "y": -10,
+      "mirror": true,
+      "radius": 5,
+      "phase": 90,
+      "stroke": 2,
+      "layerOffset": -0.001
+    },
+    {
+      "type": "HoverPart",
+      "x": 10,
+      "y": 8,
+      "mirror": true,
+      "radius": 5,
+      "phase": 90,
+      "stroke": 2,
+      "layerOffset": -0.001
+    }
+  ],
+  "weapons": [
+    {
+      "x": -6,
+      "y": -4,
+      "mirror": true,
+      "name": "missiles-mount",
+      "rotate": true,
+      "reload": 20,
+      "alternate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 1
+      },
+      "bullet": {
+        "type": "MissileBulletType",
+        "width": 8,
+        "height": 12,
+        "speed": 4,
+        "lifetime": 60,
+        "pierce": true,
+        "pierceCap": 1,
+        "damage": 10
+      }
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "mirror": false,
+      "rotate": false,
+      "reload": 120,
+      "inaccuracy": 4,
+      "name": "missiles-mount",
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 240,
+        "damage": 100,
+        "lifetime": 60
+      }
+    }
+  ],
+  "research": "apis"
+}
