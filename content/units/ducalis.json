@@ -48,8 +48,8 @@
       "name": "large-bullet-mount",
       "bullet": {
         "type": "LaserBulletType",
-        "length": 20,
-        "damage": 120,
+        "length": 300,
+        "damage": 20,
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
