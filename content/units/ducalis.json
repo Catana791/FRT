@@ -69,6 +69,8 @@
       "name": "large-laser-mount",
       "bullet": {
         "type": "BasicBulletType",
+        "speed": 3,
+        "lifetime": 60,
         "width": 20,
         "height": 20,
         "hitSize": 20,
