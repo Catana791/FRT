@@ -1,0 +1,104 @@
+{
+  "name": "Ducalis",
+  "type": "flying",
+  "hovering": true,
+  "description": "A large asssault unit equipped with rocket launchers and a proximity mine launcher.",
+  "health": 10000,
+  "armor": 10,
+  "hitSize": 27.5,
+  "itemCapacity": 60,
+  "speed": 1.8,
+  "lowAltitude": true,
+  "parts": [
+    
+  ],
+  "weapons": [
+    {
+      "x": 18,
+      "y": -18,
+      "mirror": true,
+      "rotate": true,
+      "reload": 120,
+      "alternate": false,
+      "shootSound": "laser",
+      "shake": 3,
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 320,
+        "damage": 120,
+        "lifetime": 90,
+        "status": "shocked",
+        "lightning": 3,
+        "lightningLength": 12,
+        "lightningDamage": 20,
+        "lightningColor": "",
+        "colors": ["", "", ""]
+      }
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "rotate": true,
+      "reload": 150,
+      "shootSound": "laser",
+      "shake": 3,
+      "name": "
+      "bullet": {
+        "type": "LaserBulletType",
+        "length": 320,
+        "damage": 120,
+        "lifetime": 90,
+        "status": "shocked",
+        "lightning": 3,
+        "lightningLength": 12,
+        "lightningDamage": 20,
+        "lightningColor": "",
+        "colors": ["", "", ""]
+      }
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "reload": 320,
+      "mirror": false,
+      "rotate": false,
+      "shake": 5,
+      "shootSound": "shotgun",
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 20,
+        "height": 20,
+        "hitSize": 20,
+        "damage": 20,
+        "pierce": false,
+        "despawnHit": true,
+        "trailWidth": 12,
+        "trailLength": 40,
+        "trailChance": -1,
+        "trailColor": "",
+        "backColor": "",
+        "frontColor": "",
+        "lightColor": "",
+        "lightRadius": 40,
+        "lightOpacity": 0.7,
+        "despawnUnit": "frt-proximity-mine",
+        "hitEffect": {
+          "type": "ExplosionEffect",
+          "waveRad": 70,
+          "waveColor": "",
+          "waveLife": 120,
+          "smokes": 6,
+          "smokeSize": 8,
+          "smokeSizeBase": 6,
+          "smokeRad": 60,
+          "smokeColor": "",
+          "sparks": 6,
+          "sparkColor": "",
+          "sparkLen": 12
+        }
+      }
+    }
+  ],
+  "research": "procer"
+}
