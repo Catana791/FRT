@@ -18,11 +18,13 @@
       "shootSound": "shotgun",
       "shoot": {
         "type": "ShootSpread",
-        "shots": 12,
-        "spread": 10
+        "shots": 20,
+        "spread": 12
       },
       "bullet": {
         "type": "ShrapnelBulletType",
+        "killShooter": true,
+        "width": 4,
         "length": 160,
         "collidesAir": true,
         "collidesGround": true,
