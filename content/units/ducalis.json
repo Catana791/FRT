@@ -30,7 +30,7 @@
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
-        "width": 7,
+        "width": 16,
         "lightningLength": 12,
         "lightningDamage": 5,
         "lightningColor": "ff0d0d",
@@ -54,7 +54,7 @@
         "status": "shocked",
         "lightning": 3,
         "lightningLength": 12,
-        "width": 7,
+        "width": 16,
         "lightningDamage": 5,
         "lightningColor": "ff0d0d",
         "colors": ["861303", "ff0d0d", "ff4949"],
@@ -70,7 +70,9 @@
       "shootSound": "cannon",
       "name": "large-laser-mount",
       "bullet": {
-        "type": "BasicBulletType",
+        "type": "MissileBulletType",
+        "weaveMag": 4,
+        "weaveScale": 4,
         "speed": 3,
         "lifetime": 60,
         "width": 20,
@@ -93,16 +95,13 @@
         "fragRandomSpread": 0,
         "fragBullet": {
           "type": "ShrapnelBulletType",
-          "shootSound": "shotgun",
           "hitSound": "shotgun",
           "despawnHit": true,
           "length": 80,
           "damage": 40,
           "lifetime": 90,
           "hitLarge": true,
-          "width": 16,
-          "fromColor": "ff4949",
-          "toColor": "ff0d0d"
+          "width": 16
         }
         "hitEffect": "hitMeltdown"
       }
