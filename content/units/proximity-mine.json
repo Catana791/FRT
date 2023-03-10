@@ -4,7 +4,6 @@
   "flying": false,
   "hovering": true,
   "hittable": false,
-  "killable": false,
   "drawCell": false,
   "speed": 0,
   "accel": 0,
