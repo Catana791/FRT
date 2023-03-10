@@ -68,7 +68,7 @@
         "speed": 4,
         "lifetime": 60,
         "pierce": true,
-        "pierceCap": 1,
+        "pierceCap": 3,
         "damage": 10
       }
     },
