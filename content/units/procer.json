@@ -9,14 +9,16 @@
   "armor": 9,
   "speed": 1.2,
   "itemCapacity": 25,
+  "engineOffset": 8,
+  "engineSize": 8,
   "parts": [
     {
       "type": "HoverPart",
-      "x": -6,
-      "y": -14,
+      "x": 13,
+      "y": -4,
       "mirror": true,
       "radius": 7,
-      "phase": 90,
+      "phase": 20,
       "stroke": 2,
       "layerOffset": -0.001,
       "color": "ffd59e"
@@ -27,7 +29,7 @@
       "y": 6,
       "mirror": true,
       "radius": 7,
-      "phase": 90,
+      "phase": 20,
       "stroke": 2,
       "layerOffset": -0.001,
       "color": "ffd59e"
