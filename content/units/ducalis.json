@@ -88,17 +88,21 @@
         "lightColor": "ff0d0d",
         "lightRadius": 40,
         "lightOpacity": 0.7,
-        "fragBullets": 24,
-        "fragSpread": 20,
+        "fragBullets": 30,
+        "fragSpread": 18,
         "fragRandomSpread": 0,
         "fragBullet": {
           "type": "ShrapnelBulletType",
-          "length": 160,
+          "shootSound": "shotgun",
+          "hitSound": "shotgun",
+          "despawnHit": true,
+          "length": 80,
           "damage": 40,
           "lifetime": 90,
-          "width": 8,
-          "color": "ff4949",
-          "colorTo": "ff0d0d"
+          "hitLarge": true,
+          "width": 16,
+          "fromColor": "ff4949",
+          "toColor": "ff0d0d"
         }
         "hitEffect": "hitMeltdown"
       }
