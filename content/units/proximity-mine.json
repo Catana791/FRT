@@ -1,0 +1,36 @@
+{
+  "type": "flying",
+  "name": "Proximity Mine",
+  "flying": false,
+  "hovering": true,
+  "hittable": false,
+  "killable": false,
+  "drawCell": false,
+  "speed": 0,
+  "accel": 0,
+  "weapons": [
+    { 
+      "shootOnDeath": true,
+      "reload": 1,
+      "alwaysShooting": true,
+      "shootCone": 360,
+      "ignoreRotation": true,
+      "shootSound": "shotgun",
+      "shoot": {
+        "type": "ShootSpread",
+        "shots": 12,
+        "spread": 10
+      },
+      "bullet": {
+        "type": "ShrapnelBulletType",
+        "length": 160,
+        "collidesAir": true,
+        "collidesGround": true,
+        "collidesTiles": true,
+        "damage": 40,
+        "color": "",
+        "colorTo": ""
+      }
+    }
+  ]
+}
