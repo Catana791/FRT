@@ -47,8 +47,8 @@
   ],
   "weapons": [
     {
-      "x": 18,
-      "y": -18,
+      "x": 14,
+      "y": -14,
       "mirror": true,
       "rotate": true,
       "reload": 40,
