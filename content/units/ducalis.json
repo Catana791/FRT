@@ -18,7 +18,7 @@
       "y": -18,
       "mirror": true,
       "rotate": true,
-      "reload": 20,
+      "reload": 40,
       "alternate": true,
       "shootSound": "laser",
       "shake": 3,
@@ -42,7 +42,7 @@
       "y": 0,
       "mirror": false,
       "rotate": true,
-      "reload": 30,
+      "reload": 50,
       "shootSound": "laser",
       "shake": 3,
       "name": "large-bullet-mount",
@@ -95,7 +95,8 @@
           "type": "ShrapnelBulletType",
           "length": 160,
           "damage": 40,
-          "width": 6,
+          "lifetime": 90,
+          "width": 8,
           "color": "ff4949",
           "colorTo": "ff0d0d"
         }
