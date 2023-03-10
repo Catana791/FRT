@@ -60,7 +60,7 @@
       "bullet": {
         "type": "LaserBulletType",
         "length": 320,
-        "damage": 35,
+        "damage": 50,
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
@@ -84,7 +84,7 @@
       "bullet": {
         "type": "LaserBulletType",
         "length": 300,
-        "damage": 35,
+        "damage": 50,
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
@@ -133,7 +133,7 @@
           "hitSound": "shotgun",
           "despawnHit": true,
           "length": 80,
-          "damage": 60,
+          "damage": 80,
           "lifetime": 90,
           "hitLarge": true,
           "width": 16
