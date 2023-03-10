@@ -14,6 +14,18 @@
   "parts": [
     {
       "type": "HoverPart",
+      "x": 9,
+      "y": -12,
+      "mirror": true,
+      "radius": 6,
+      "phase": 240,
+      "stroke": 2,
+      "rotation": 90,
+      "layerOffset": -0.001,
+      "color": "ffd59e"
+    }
+    {
+      "type": "HoverPart",
       "x": 13,
       "y": -6,
       "mirror": true,
