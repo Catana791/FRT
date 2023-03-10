@@ -28,8 +28,8 @@
         "collidesGround": true,
         "collidesTiles": true,
         "damage": 40,
-        "color": "",
-        "colorTo": ""
+        "color": "ff4949",
+        "colorTo": "ff0d0d"
       }
     }
   ]
