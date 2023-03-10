@@ -22,6 +22,7 @@
       "alternate": false,
       "shootSound": "laser",
       "shake": 3,
+      "name": "large-bullet-mount",
       "bullet": {
         "type": "LaserBulletType",
         "length": 320,
@@ -31,8 +32,8 @@
         "lightning": 3,
         "lightningLength": 12,
         "lightningDamage": 20,
-        "lightningColor": "",
-        "colors": ["", "", ""]
+        "lightningColor": "ff0d0d",
+        "colors": ["861303", "ff0d0d", "ff4949"],
       }
     },
     {
@@ -43,7 +44,7 @@
       "reload": 150,
       "shootSound": "laser",
       "shake": 3,
-      "name": "
+      "name": "large-bullet-mount",
       "bullet": {
         "type": "LaserBulletType",
         "length": 320,
@@ -53,8 +54,8 @@
         "lightning": 3,
         "lightningLength": 12,
         "lightningDamage": 20,
-        "lightningColor": "",
-        "colors": ["", "", ""]
+        "lightningColor": "ff0d0d",
+        "colors": ["861303", "ff0d0d", "ff4949"],
       }
     },
     {
@@ -64,7 +65,8 @@
       "mirror": false,
       "rotate": false,
       "shake": 5,
-      "shootSound": "shotgun",
+      "shootSound": "cannon",
+      "name": "large-laser-mount",
       "bullet": {
         "type": "BasicBulletType",
         "width": 20,
@@ -76,25 +78,25 @@
         "trailWidth": 12,
         "trailLength": 40,
         "trailChance": -1,
-        "trailColor": "",
-        "backColor": "",
-        "frontColor": "",
-        "lightColor": "",
+        "trailColor": "ff0d0d",
+        "backColor": "861303",
+        "frontColor": "ff4949",
+        "lightColor": "ff0d0d",
         "lightRadius": 40,
         "lightOpacity": 0.7,
         "despawnUnit": "frt-proximity-mine",
         "hitEffect": {
           "type": "ExplosionEffect",
           "waveRad": 70,
-          "waveColor": "",
+          "waveColor": "ff0d0d",
           "waveLife": 120,
           "smokes": 6,
           "smokeSize": 8,
           "smokeSizeBase": 6,
           "smokeRad": 60,
-          "smokeColor": "",
+          "smokeColor": "ff4949",
           "sparks": 6,
-          "sparkColor": "",
+          "sparkColor": "861303",
           "sparkLen": 12
         }
       }
