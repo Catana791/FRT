@@ -12,23 +12,25 @@
   "parts": [
     {
       "type": "HoverPart",
-      "x": -10,
-      "y": -10,
+      "x": -6,
+      "y": -14,
       "mirror": true,
       "radius": 5,
       "phase": 90,
       "stroke": 2,
-      "layerOffset": -0.001
+      "layerOffset": -0.001,
+      "color": "ffa665"
     },
     {
       "type": "HoverPart",
-      "x": 10,
-      "y": 8,
+      "x": 8,
+      "y": 9,
       "mirror": true,
       "radius": 5,
       "phase": 90,
       "stroke": 2,
-      "layerOffset": -0.001
+      "layerOffset": -0.001,
+      "color": "ffa665"
     }
   ],
   "weapons": [
