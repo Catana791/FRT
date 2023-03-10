@@ -10,7 +10,40 @@
   "speed": 1.8,
   "lowAltitude": true,
   "parts": [
-    
+    {
+      "type": "HoverPart",
+      "mirror": true,
+      "x": 20,
+      "y": 20,
+      "radius": 7,
+      "phase": 180,
+      "color": "ffd59e",
+      "stroke": 2,
+      "layerOffset": -0.001,
+    },
+    {
+      "type": "HoverPart",
+      "mirror": true,
+      "x": -8,
+      "y": 30,
+      "radius": 8,
+      "phase": 180,
+      "color": "ffd59e",
+      "stroke": 3,
+      "layerOffset": -0.001,
+    },
+    {
+      "type": "HoverPart",
+      "mirror": true,
+      "x": 10,
+      "y": -30,
+      "radius": 9,
+      "phase": 180,
+      "color": "ffd59e",
+      "stroke": 3,
+      "layerOffset": -0.001,
+      "rotation": 90
+    }
   ],
   "weapons": [
     {
@@ -26,13 +59,13 @@
       "bullet": {
         "type": "LaserBulletType",
         "length": 320,
-        "damage": 20,
+        "damage": 30,
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
         "width": 16,
         "lightningLength": 12,
-        "lightningDamage": 5,
+        "lightningDamage": 15,
         "lightningColor": "ff0d0d",
         "colors": ["861303", "ff0d0d", "ff4949"],
       }
@@ -49,13 +82,13 @@
       "bullet": {
         "type": "LaserBulletType",
         "length": 300,
-        "damage": 20,
+        "damage": 30,
         "lifetime": 90,
         "status": "shocked",
         "lightning": 3,
         "lightningLength": 12,
         "width": 16,
-        "lightningDamage": 5,
+        "lightningDamage": 15,
         "lightningColor": "ff0d0d",
         "colors": ["861303", "ff0d0d", "ff4949"],
       }
@@ -74,11 +107,11 @@
         "weaveMag": 4,
         "weaveScale": 4,
         "speed": 3,
-        "lifetime": 60,
+        "lifetime": 90,
         "width": 20,
         "height": 20,
         "hitSize": 20,
-        "damage": 20,
+        "damage": 160,
         "pierce": false,
         "despawnHit": true,
         "trailWidth": 12,
@@ -98,7 +131,7 @@
           "hitSound": "shotgun",
           "despawnHit": true,
           "length": 80,
-          "damage": 40,
+          "damage": 60,
           "lifetime": 90,
           "hitLarge": true,
           "width": 16
