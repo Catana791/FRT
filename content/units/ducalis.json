@@ -54,7 +54,6 @@
       "reload": 40,
       "alternate": true,
       "shootSound": "laser",
-      "continuous": true,
       "shake": 3,
       "name": "large-bullet-mount",
       "bullet": {
@@ -77,7 +76,6 @@
       "mirror": false,
       "rotate": true,
       "reload": 50,
-      "continuous": true,
       "shootSound": "laser",
       "shake": 3,
       "name": "large-bullet-mount",
