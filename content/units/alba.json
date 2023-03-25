@@ -15,12 +15,20 @@
   "faceTarget": false,
   "range": 120,
   "weapons": [],
-  "abilities": [
+  "weapons": [
     {
-      "type": "RepairFieldAbility",
-      "reload": 120,
-      "amount": 5,
-      "range": 120
+      "x": 0,
+      "y": -8,
+      "reload": 12,
+      "mirror": false,
+      "rotate": true,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 1,
+        "buildingDamageMultiplier": 0,
+        "collideTeam": true,
+        "healAmount": 5
+      }
     }
   ],
   "research": "primary-factory"
