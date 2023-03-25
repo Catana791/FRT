@@ -125,7 +125,7 @@
       "shootSound": "flame",
       "bullet": {
         "type": "BasicBulletType",
-        "speed": 4,
+        "speed": 6,
         "damage": 2,
         "buildingDamageMultiplier": 0.25
         "despawnEffect": "none",
@@ -138,19 +138,23 @@
         "incendAmount": 0,
         "pierceBuilding": true,
         "pierceCap": 4,
+        "collidesTeam": true,
+        "healAmount": 4,
         "smokeEffect": {
           "type": "ParticleEffect",
-          "particles": 20,
-          "length": 200,
+          "particles": 30,
+          "length": 300,
           "lifetime": 30,
           "interp": "circleOut",
           "cone": 8,
           "colorFrom": "84f491",
           "colorTo": "62ae7f",
-          "sizeFrom": 4,
-          "sizeTo": 0.6,
+          "sizeFrom": 6,
+          "sizeTo": 1,
           //testing line particles
-          "line": true
+          "line": true,
+          "strokeFrom": 0.8,
+          "strokeTo": 0.6
         }
       }
     }
