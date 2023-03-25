@@ -9,7 +9,8 @@
         ["plant", "corax"],
         ["kestrel", "sps"],
         ["arnux", "japonica"],
-        ["ducalis", "hive"]
+        ["ducalis", "hive"],
+        ["aestiva", "altaic"]
     ],
     "consumes": {
         "power": 30,
