@@ -2,7 +2,7 @@
   "type": "naval",
   "name": "Aestiva",
   "description": "A large support naval ship equipped with a healing shotgun. Spawns Alba.",
-  "health": 13000,
+  "health": 9000,
   "armor": 12,
   "speed": 0.8,
   "drag": 0.17,
@@ -32,7 +32,7 @@
       "shoot": {
         "shots": 24,
         "spread": 1,
-        "shotDelay": 2
+        "shotDelay": 1
       },
       "mirror": false,
       "rotate": true,
