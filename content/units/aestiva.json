@@ -1,0 +1,59 @@
+{
+  "type": "naval",
+  "name": "Aestiva",
+  "description": "A large support naval ship equipped with a slow-moving, single target repair laser. Spawns Alba.",
+  "health": 13000,
+  "armor": 12,
+  "speed": 0.8,
+  "drag": 0.17,
+  "hitSize": 28,
+  "accel": 0.3,
+  "rotateSpeed": 1.8,
+  "faceTarget": false,
+  "trailLength": 40,
+  "waveTrailX": 15,
+  "waveTrailY": -14,
+  "trailScl": 3.6,
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "alba",
+      //time to be tested, probably needs adjustment
+      "spawnTime": 600
+      //
+    }
+  ],
+  "weapons": [
+    {
+      "x": 0,
+      "y": -20,
+      "alwaysContinuous": true,
+      "continuous": true,
+      "rotate": true,
+      "rotateSpeed": 1,
+      "mirror": false,
+      //note to self: this might not work!
+      "loopSound": "laserbeam",
+      "loopSoundVolume": 1.1,
+      "shootSound": "none"
+      //
+      "shootCone": 360,
+      "shootWarmupSpeed": 0.08,
+      "bullet": {
+        "type": "PointLaserBulletType",
+        //needs at least 1 damage to be able to collide
+        "damage": 1,
+        //
+        "buildingDamageMultiplier": 0,
+        "collidesTeam": true,
+        "color": "4cd37f",
+        "hitColor": "4cd37f",
+        //might need to use percentages instead? healing to be tested
+        "healAmount": 20
+        //
+        "damageInterval": 60
+      }
+    }
+  ],
+  "research": "arvens"
+}
