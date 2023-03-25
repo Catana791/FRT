@@ -22,6 +22,7 @@
       //again, might need adjustment
       "spawnTime": 600
       //
+      "spawnY": -50
     },
     {
       "type": "EnergyFieldAbility",
@@ -39,7 +40,8 @@
       "statusDuration": 360,
       //
       "targetAir": true,
-      "targetGround": true
+      "targetGround": true,
+      "y": 10
     }
   ],
   "weapons": [
