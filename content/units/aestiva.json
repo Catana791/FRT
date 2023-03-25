@@ -32,10 +32,10 @@
       "rotate": true,
       "rotateSpeed": 1,
       "mirror": false,
+      "controllable": true,
+      "autoTarget": true,
       //note to self: this might not work!
-      "loopSound": "laserbeam",
-      "loopSoundVolume": 1.1,
-      "shootSound": "none"
+      "shootSound": "laserbeam",
       //
       "shootCone": 360,
       "shootWarmupSpeed": 0.08,
@@ -47,11 +47,14 @@
         "buildingDamageMultiplier": 0,
         "collidesTeam": true,
         "color": "4cd37f",
+        "width": 10,
+        "targetInterval": 1,
+        "targetSwitchInterval": 5,
         "hitColor": "4cd37f",
         //might need to use percentages instead? healing to be tested
         "healAmount": 20
         //
-        "damageInterval": 60
+        "damageInterval": 10
       }
     }
   ],
