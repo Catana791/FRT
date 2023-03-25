@@ -38,6 +38,15 @@
         "silicon/15"
       ],
       "time": 1200
+    },
+    {
+      "unit": "alba",
+      "requirements": [
+        "silicon/25",
+        "metaglass/30",
+        "titanium/25"
+      ],
+      "time": 3600
     }
   ],
   "requirements": [
