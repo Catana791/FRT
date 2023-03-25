@@ -79,6 +79,7 @@
       "y": 40,
       "reload": 170,
       "recoil": 2,
+      "rotate": true,
       "shake": 3,
       "mirror": false,
       "controllable": true,
@@ -109,14 +110,15 @@
     },
     {
       //this weapon might turn out way too op or not fit at all; testing is required
-      "x": 0,
-      "y": -45,
+      "x": 12,
+      "y": -38,
       "reload": 6,
       "inaccuracy": 5,
       "shoot": {
         "shots": 12
       },
-      "mirror": false,
+      "mirror": true,
+      "shootCone": 90,
       "rotate": true,
       "rotateSpeed": 2,
       "shootSound": "flame",
@@ -146,9 +148,8 @@
           "colorTo": "62ae7f",
           "sizeFrom": 4,
           "sizeTo": 0.6,
-          //might add:
-          //line: true
-          //
+          //testing line particles
+          "line": true
         }
       }
     }
