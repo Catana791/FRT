@@ -28,10 +28,11 @@
       "x": 0,
       "y": -15,
       "reload": 180,
-      "inaccuracy": 10,
+      "inaccuracy": 25,
       "shoot": {
-        "shots": 24,
+        "shots": 12,
         "spread": 1,
+        "shotDelay": 1
       },
       "mirror": false,
       "rotate": true,
