@@ -9,7 +9,8 @@
         ["seed", "sapling"],
         ["lancer-drone", "close-range"],
         ["mela", "cromis"],
-        ["apis", "procer"]
+        ["apis", "procer"],
+        ["alba", "arvens"]
     ],
     "consumes": {
         "power": 0.8,
