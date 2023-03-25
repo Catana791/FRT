@@ -1,0 +1,27 @@
+{
+  "type": "BuildTower",
+  "name": "Construction Pylon",
+  "description": "Automatically builds and destroys structures and supports the player.",
+  "requirements": [
+    "copper/90",
+    "silicon/60",
+    "titanium/150",
+    "living-steel/150"
+  ],
+  "category": "effect",
+  "research": "duo",
+  "size": 3,
+  "range": 160,
+  "buildSpeed": 0.5,
+  "liquidBoostIntensity": 2.5,
+  "coolantMultiplier": 2.5,
+  "consumes": {
+    "power": 9,
+    "liquid": {
+      "liquid": "neutron-fluid",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  }
+}
