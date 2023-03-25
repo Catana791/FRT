@@ -32,8 +32,6 @@
       "rotate": true,
       "rotateSpeed": 1,
       "mirror": false,
-      "controllable": false,
-      "autoTarget": true,
       //note to self: this might not work!
       "shootSound": "laserbeam",
       //
