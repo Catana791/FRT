@@ -1,7 +1,7 @@
 {
   "type": "naval",
   "name": "Aestiva",
-  "description": "A large support naval ship equipped with a slow-moving, single target repair laser. Spawns Alba.",
+  "description": "A large support naval ship equipped with a healing shotgun. Spawns Alba.",
   "health": 13000,
   "armor": 12,
   "speed": 0.8,
@@ -28,7 +28,7 @@
       "x": 0,
       "y": -15,
       "reload": 180,
-      "inaccuracy": 20,
+      "inaccuracy": 10,
       "shoot": {
         "shots": 24,
         "spread": 1,
@@ -41,7 +41,7 @@
       "bullet": {
         "speed": 5,
         "lifetime": 45,
-        "inaccuracy": 20,
+        "inaccuracy": 10,
         "type": "LaserBoltBulletType",
         "width": 4,
         "height": 10,
