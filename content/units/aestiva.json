@@ -28,14 +28,18 @@
       "x": 0,
       "y": -15,
       "reload": 180,
-      "inaccuracy": 10
+      "inaccuracy": 10,
       "shoot": {
-        "shots": 24
+        "shots": 24,
+        "spread": 1,
       },
       "mirror": false,
       "rotate": true,
+      "shootSound": "lasershoot",
       "rotateSpeed": 3,
       "bullet": {
+        "speed": 5,
+        "lifetime": 45,
         "type": "LaserBoltBulletType",
         "width": 4,
         "height": 10,
