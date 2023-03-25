@@ -9,7 +9,8 @@
         ["sapling", "plant"],
         ["close-range", "kestrel"],
         ["cromis", "arnux"],
-        ["procer", "ducalis"]
+        ["procer", "ducalis"],
+        ["arvens", "aestiva"]
     ],
     "consumes": {
         "power": 13.3333333333333,
