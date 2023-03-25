@@ -15,7 +15,22 @@
   "waveTrailY": -8,
   "trailScl": 1.77,
   "range": 200,
-  "weapons": []
+  "weapons": [
+    {
+      "type": "RepairBeamWeapon",
+      "repairSpeed": 10,
+      "targetUnits": true,
+      "targetBuildings": true,
+      "x": 0,
+      "y": -10,
+      "mirror": false,
+      "rotate": true,
+      "rotateSpeed": 3,
+      "bullet": {
+        "maxRange": 160
+      }
+    }
+  ],
   "abilities": [
     {
       "type": "RepairFieldAbility",
