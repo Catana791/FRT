@@ -29,7 +29,7 @@
         "buildingDamageMultiplier": 0,
         "collidesTeam": true,
         "healAmount": 5,
-        "lightningLength": 6,
+        "lightningLength": 15,
         "lightningColor": "98ffa9"
       }
     }
