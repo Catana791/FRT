@@ -1,0 +1,27 @@
+{
+  "type": "naval",
+  "name": "Alba",
+  "description": "A small naval support ship that is equipped with nothing but a small regeneration projector.",
+  "health": 310,
+  "armor": 3,
+  "speed": 1.2,
+  "drag": 0.14,
+  "hitSize": 9,
+  "accel": 0.5,
+  "rotateSpeed": 5.5,
+  "trailLength": 16,
+  "waveTrailX": 4,
+  "trailScl": 1.2,
+  "faceTarget": false,
+  "range": 120,
+  "weapons": [],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "reload": 120,
+      "amount": 5,
+      "range": 120
+    }
+  ],
+  "research": "primary-factory"
+}
