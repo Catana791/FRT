@@ -32,7 +32,7 @@
       "shoot": {
         "shots": 12,
         "spread": 1,
-        "shotDelay": 1
+        "shotDelay": 4
       },
       "mirror": false,
       "rotate": true,
@@ -41,6 +41,7 @@
       "bullet": {
         "speed": 5,
         "lifetime": 45,
+        "inaccuracy": 25,
         "type": "LaserBoltBulletType",
         "width": 4,
         "height": 10,
