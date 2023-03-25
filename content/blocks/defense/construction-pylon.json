@@ -12,16 +12,11 @@
   "research": "duo",
   "size": 3,
   "range": 160,
-  "buildSpeed": 0.5,
+  "buildSpeed": 1,
   "liquidBoostIntensity": 2.5,
   "coolantMultiplier": 2.5,
   "consumes": {
     "power": 9,
-    "liquid": {
-      "liquid": "neutron-fluid",
-      "amount": 0.05,
-      "optional": true,
-      "booster": true
-    }
+    "liquid": "cryofluid/0.2"
   }
 }
