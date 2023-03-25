@@ -1,5 +1,5 @@
 {
-  "type": "BuildTower",
+  "type": "BuildTurret",
   "name": "Construction Pylon",
   "description": "Automatically builds and destroys structures and supports the player.",
   "requirements": [
