@@ -47,6 +47,13 @@
         "titanium/25"
       ],
       "time": 3600
+    },
+    {
+      "unit": "annax",
+      "requirements": [
+        "silicon/30,
+        "lead/20"
+      ]
     }
   ],
   "requirements": [
