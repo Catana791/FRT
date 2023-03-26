@@ -10,7 +10,8 @@
         ["close-range", "kestrel"],
         ["cromis", "arnux"],
         ["procer", "ducalis"],
-        ["arvens", "aestiva"]
+        ["arvens", "aestiva"],
+        ["scofra", "auratus"]
     ],
     "consumes": {
         "power": 13.3333333333333,
