@@ -31,7 +31,7 @@
         "type": "LiquidBulletType",
         "liquid": "oil",
         "speed": 4,
-        "lifetime": 75,
+        "lifetime": 40,
         "damage": 8,
         "shootEffect": "shootSmall",
         "hitEffect": "hitBulletColor",
