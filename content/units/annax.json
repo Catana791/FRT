@@ -8,7 +8,7 @@
   "mechSideSway": 0.25,
   "weapons": [
     {
-      "name": "atrax-weapon",
+      "sprite": "atrax-weapon",
       "x": 6,
       "y": -1,
       "reload": 180,
@@ -18,7 +18,7 @@
       "shoot": {
         "firstShotDelay": 60,
         "shots": 12,
-        "shotDelay": 1
+        "shotDelay": 3
       },
       "chargeSound": "lasercharge2",
       "alternate": false,
@@ -30,7 +30,10 @@
         "damage": 3,
         "pierce": true,
         "pierceCap": 2,
-        "buildingDamageMultiplier": 0.9
+        "buildingDamageMultiplier": 0.9,
+        "chargeEffect": "lightningCharge",
+        "shootEffect": "shootSmall",
+        "ejectEffect": "none"
       }
     }
   ],
