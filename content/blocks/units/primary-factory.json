@@ -53,7 +53,8 @@
       "requirements": [
         "silicon/30,
         "lead/20"
-      ]
+      ],
+      "time": 2400
     }
   ],
   "requirements": [
