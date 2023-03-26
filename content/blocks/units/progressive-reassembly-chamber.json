@@ -10,7 +10,8 @@
         ["kestrel", "sps"],
         ["arnux", "japonica"],
         ["ducalis", "hive"],
-        ["aestiva", "altaic"]
+        ["aestiva", "altaic"],
+        ["auratus", "test"]
     ],
     "consumes": {
         "power": 30,
