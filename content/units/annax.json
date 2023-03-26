@@ -8,7 +8,7 @@
   "mechSideSway": 0.25,
   "weapons": [
     {
-      "name": "mindustry-atrax-weapon",
+      "name": "atrax-weapon",
       "x": 6,
       "y": -1,
       "reload": 180,
