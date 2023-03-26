@@ -62,11 +62,11 @@
           "length": 180,
           "lifetime": 12,
           "interp": "circleOut",
-          "cone: 7
-          "colorFrom: ffdd55
-          "colorTo: db401c
-          "sizeFrom: 3
-          "sizeTo: 0.4 
+          "cone": 7,
+          "colorFrom": "ffdd55",
+          "colorTo": "db401c",
+          "sizeFrom": 3,
+          "sizeTo": 0.4 
         }
       }
     }
