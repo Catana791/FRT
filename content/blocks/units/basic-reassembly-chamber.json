@@ -10,7 +10,8 @@
         ["lancer-drone", "close-range"],
         ["mela", "cromis"],
         ["apis", "procer"],
-        ["alba", "arvens"]
+        ["alba", "arvens"],
+        ["annax", "scofra"]
     ],
     "consumes": {
         "power": 0.8,
