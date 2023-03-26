@@ -51,7 +51,7 @@
     {
       "unit": "annax",
       "requirements": [
-        "silicon/30,
+        "silicon/30",
         "lead/20"
       ],
       "time": 2400
