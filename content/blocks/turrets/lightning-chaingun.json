@@ -8,7 +8,6 @@
     "silicon/1800",
     "surge-alloy/500"
   ],
-  "heatColor": "ffffff4D",
   "health": 5400,
   "consumes": {
     "power": 80,
@@ -20,7 +19,6 @@
   "size": 6,
   "reload": 6,
   "range": 400,
-  "cooldownTime": 6,
   "minWarmup": 0.6,
   "shootY": 20,
   "shootWarmupSpeed": 0.007,
@@ -42,6 +40,15 @@
   "drawer": {
     "type": "DrawTurret",
     "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-top",
+        "mirror": false,
+        "under": false,
+        "progress": "warmup",
+        "heatProgress": "warmup",
+        "heatColor": "ffffff4D"
+      },
       {
         "type": "RegionPart",
         "suffix": "-barrel",
