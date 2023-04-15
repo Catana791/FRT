@@ -73,8 +73,10 @@
   },
   "shootType": {
     "type": "BasicBulletType",
-    "width": 8,
-    "height": 16,
+    "width": 12,
+    "height": 48,
+    "backColor": "a9d8ff",
+    "frontColor": "ffffff",
     "mixColorFrom": "a9d8ff",
     "mixColorTo": "ffffff",
     "speed": 8,
