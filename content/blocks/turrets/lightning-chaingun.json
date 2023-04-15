@@ -19,6 +19,7 @@
   "heatColor": "ff6214",
   "range": 400,
   "minWarmup": 0.7,
+  "shootY": 20,
   "shootWarmupSpeed": 0.007,
   "warmupMaintainTime": 60,
   "recoil": 0.5,
