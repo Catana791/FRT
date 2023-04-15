@@ -47,8 +47,7 @@
         "heatProgress": "recoil",
         "under": true,
         "mirror": true,
-        "moveY": -4,
-        "heatColor": "ffffff4D"
+        "moveY": -4
       },
       {
         "type": "RegionPart",
