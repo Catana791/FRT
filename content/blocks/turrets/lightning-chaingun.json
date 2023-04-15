@@ -8,6 +8,7 @@
     "silicon/1800",
     "surge-alloy/500"
   ],
+  "heatColor": "ffffff4D",
   "health": 5400,
   "consumes": {
     "power": 80,
@@ -48,7 +49,8 @@
         "heatProgress": "recoil",
         "under": true,
         "mirror": true,
-        "moveY": -4
+        "moveY": -4,
+        "heatColor": "ffffff4D"
       },
       {
         "type": "RegionPart",
@@ -81,7 +83,7 @@
     "mixColorTo": "ffffff",
     "speed": 8,
     "lifetime": 50,
-    "damage": 20,
+    "damage": 120,
     "pierce": true,
     "pierceBuilding": true,
     "shootEffect": "shootBigColor",
