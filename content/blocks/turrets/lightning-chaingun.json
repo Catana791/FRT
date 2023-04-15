@@ -1,1 +1,86 @@
-
+{
+  "type": "PowerTurret",
+  "name": "Lightning Chaingun",
+  "description": "Gradually escalates in firerate, decimating enemies with a flurry of lasers.",
+  "requirements": [
+    "copper/2400",
+    "graphite/1950",
+    "silicon/1800",
+    "surge-alloy/500"
+  ],
+  "health": 5400,
+  "consumes": {
+    "power": 80,
+    "coolant": {
+      "amount": 2 
+    }
+  },
+  "reload": 3,
+  "heatColor": "ff6214",
+  "range": 400,
+  "minWarmup": 0.5,
+  "shootWarmupSpeed": 0.01,
+  "warmupMaintainTime": 45,
+  "recoil": 0.5,
+  "recoilTime": 40,
+  "shake": 4,
+  "inaccuracy": 5,
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 2,
+    "spread": 10
+  },
+  "recoils": 2,
+  "shootSound": "malignShoot",
+  "loopSound": "spellLoop",
+  "loopSoundVolume": 1.3,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "under": true,
+        "mirror": true,
+        "moveY": -4,
+        "heatColor": "ff6214"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-1",
+        "mirror": true,
+        "under": true,
+        "progress": "warmup",
+        "moveRot": 40
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-2",
+        "mirror": true,
+        "under": true,
+        "progress": "warmup",
+        "moveRot": 40
+      }
+    ]
+  },
+  "shootType": {
+    "type": "LaserBoltBulletType",
+    "width": 12,
+    "height": 36,
+    "mixColorFrom": "ec745855",
+    "mixColorTo": "ff9c5a",
+    "speed": 8,
+    "lifetime": 50,
+    "damage": 20,
+    "pierce": true,
+    "pierceBuilding": true,
+    "shootEffect": "shootBigColor",
+    "smokeEffect": "shootSmokeSquareSparse",
+    "homingPower": 0.078,
+    "homingDelay": 60
+  },
+  "category": "turret",
+  "research": "duo"
+}
