@@ -18,12 +18,12 @@
   "reload": 3,
   "heatColor": "ff6214",
   "range": 400,
-  "minWarmup": 0.5,
-  "shootWarmupSpeed": 0.01,
-  "warmupMaintainTime": 45,
+  "minWarmup": 0.7,
+  "shootWarmupSpeed": 0.007,
+  "warmupMaintainTime": 60,
   "recoil": 0.5,
   "recoilTime": 40,
-  "shake": 4,
+  "shake": 2,
   "inaccuracy": 5,
   "shoot": {
     "type": "ShootAlternate",
@@ -53,7 +53,8 @@
         "mirror": true,
         "under": true,
         "progress": "warmup",
-        "moveRot": 40
+        "moveRot": 40,
+        "moveX": 10
       },
       {
         "type": "RegionPart",
@@ -61,14 +62,15 @@
         "mirror": true,
         "under": true,
         "progress": "warmup",
-        "moveRot": 40
+        "moveRot": 40,
+        "moveX": 10
       }
     ]
   },
   "shootType": {
     "type": "LaserBoltBulletType",
-    "width": 12,
-    "height": 36,
+    "width": 4,
+    "height": 12,
     "mixColorFrom": "ec745855",
     "mixColorTo": "ff9c5a",
     "speed": 8,
@@ -79,7 +81,9 @@
     "shootEffect": "shootBigColor",
     "smokeEffect": "shootSmokeSquareSparse",
     "homingPower": 0.078,
-    "homingDelay": 60
+    "homingDelay": 60,
+    "hitEffect": "none",
+    "despawnEffect": "none"
   },
   "category": "turret",
   "research": "duo"
