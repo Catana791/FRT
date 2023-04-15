@@ -20,7 +20,7 @@
   "size": 6,
   "reload": 6,
   "range": 400,
-  "cooldownTime": 1,
+  "cooldownTime": 6,
   "minWarmup": 0.6,
   "shootY": 20,
   "shootWarmupSpeed": 0.007,
