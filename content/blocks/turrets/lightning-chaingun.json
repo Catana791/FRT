@@ -16,7 +16,7 @@
     }
   },
   "size": 6,
-  "reload": 3,
+  "reload": 6,
   "heatColor": "ff6214",
   "range": 400,
   "minWarmup": 0.7,
@@ -74,7 +74,7 @@
   "shootType": {
     "type": "BasicBulletType",
     "width": 12,
-    "height": 48,
+    "height": 72,
     "backColor": "a9d8ff",
     "frontColor": "ffffff",
     "mixColorFrom": "a9d8ff",
