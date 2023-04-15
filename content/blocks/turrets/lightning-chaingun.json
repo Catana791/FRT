@@ -15,6 +15,7 @@
       "amount": 2 
     }
   },
+  "coolantMultiplier": 0.1,
   "size": 6,
   "reload": 6,
   "heatColor": "ff6214",
@@ -31,7 +32,7 @@
     "type": "ShootAlternate",
     "shots": 2,
     "spread": 14,
-    "shotDelay": 4
+    "shotDelay": 8
   },
   "recoils": 2,
   "shootSound": "malignShoot",
