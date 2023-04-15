@@ -45,9 +45,9 @@
         "suffix": "-top",
         "mirror": false,
         "under": false,
-        "progress": "warmup",
-        "heatProgress": "warmup",
-        "heatColor": "ffffff4D"
+        "progress": "recoil",
+        "heatProgress": "recoil",
+        "heatColor": "ffffff66"
       },
       {
         "type": "RegionPart",
