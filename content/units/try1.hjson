@@ -23,7 +23,7 @@ weapons: [
       weaveScale: 4
       lifetime: 60
       speed: 3
-      damage: 6
+      damage: 9
       trailWidth: 1.5
       trailColor: d9dcbc
       trailLength: 6
