@@ -13,12 +13,8 @@ weapons: [
     y: 0
     rotate: false
     mirror: false
-    reload: 12
+    reload: 20
     shootSound: shoot
-    shoot: {
-      shots: 2
-      shotDelay: 4
-    },
     bullet: {
       type: BasicBulletType
       width: 6
@@ -26,9 +22,11 @@ weapons: [
       keepVelocity: false
       weaveMag: 4
       weaveScale: 4
-      speed": 2
+      lifetime: 30 
+      speed": 3
       damage": 3
       trailWidth: 0.6
+      trailColor: d9dcbc
       trailLength: 4
       trailChance: -1
     }
