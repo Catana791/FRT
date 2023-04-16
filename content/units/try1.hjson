@@ -1,6 +1,6 @@
 type: flying
 flying: true
-drawEngine: false
+engineSize: 0
 lowAltitude: true
 name: Aedes
 description: A small helicopter equipped with a gun that shoots swirving bullets.
