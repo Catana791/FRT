@@ -14,9 +14,9 @@ abilities: [
       lifetime: 20
       length: 0
       region: frt-try1-rotor
-      sizeFrom: 5
-      sizeTo: 5
-      spin: 24
+      sizeFrom: 15
+      sizeTo: 15
+      spin: 16
       layer: 95.1
     }
   }
