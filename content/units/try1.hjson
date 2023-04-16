@@ -21,7 +21,7 @@ weapons: [
       height: 10
       weaveMag: 4
       weaveScale: 4
-      lifetime: 30 
+      lifetime: 60
       speed: 3
       damage: 6
       trailWidth: 1.5
