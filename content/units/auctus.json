@@ -1,9 +1,11 @@
 {
   "type": "crawl",
   "name": "Auctus",
-  "description": "A long, snake-like unit that stomps buildings and utilizes neutron fluid to fight.",
+  "description": "A long, snake-like unit that stomps buildings.",
   "health": 20000,
   "armor": 12,
+  "drawCell": false,
+  "outlines": false,
   "hitSize": 120,
   "squareShape": false,
   "segments": 8,
@@ -17,5 +19,6 @@
   "segmentScl": 4,
   "segmentPhase": 5,
   "speed": 1,
-  "weapons": []
+  "weapons": [ ],
+  "abilities": [ ]
 } 
