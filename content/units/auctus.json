@@ -1,0 +1,21 @@
+{
+  "type": "neoplasm",
+  "name": "Auctus",
+  "description": "A long, snake-like unit that stomps buildings and utilizes neutron fluid to fight.",
+  "health": 20000,
+  "armor": 12,
+  "hitSize": 120,
+  "squareShape": false,
+  "segments": 8,
+  "omniMovement": false,
+  "rotateSpeed": 2.2,
+  "drownTimeMultiplier": 8,
+  "drawBody": false,
+  "hidden": true,
+  "crushDamage": 2,
+  "aiController": "HugAI",
+  "targetAir": false,
+  "segmentScl": 4,
+  "segmentPhase": 5,
+  "speed": 1
+} 
