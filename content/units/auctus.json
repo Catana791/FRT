@@ -17,5 +17,6 @@
   "targetAir": false,
   "segmentScl": 4,
   "segmentPhase": 5,
-  "speed": 1
+  "speed": 1,
+  "weapons": []
 } 
