@@ -1,5 +1,5 @@
 {
-  "type": "neoplasm",
+  "type": "crawl",
   "name": "Auctus",
   "description": "A long, snake-like unit that stomps buildings and utilizes neutron fluid to fight.",
   "health": 20000,
