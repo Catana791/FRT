@@ -10,7 +10,7 @@
   "squareShape": false,
   "segments": 8,
   "omniMovement": false,
-  "rotateSpeed": 2.2,
+  "rotateSpeed": 0.78,
   "drownTimeMultiplier": 8,
   "drawBody": false,
   "hidden": false,
