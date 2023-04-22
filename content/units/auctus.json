@@ -2,7 +2,7 @@
   "type": "crawl",
   "name": "Auctus",
   "description": "A long, snake-like unit that stomps buildings.",
-  "health": 20000,
+  "health": 12000,
   "armor": 12,
   "drawCell": false,
   "outlines": false,
