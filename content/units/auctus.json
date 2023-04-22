@@ -11,7 +11,7 @@
   "rotateSpeed": 2.2,
   "drownTimeMultiplier": 8,
   "drawBody": false,
-  "hidden": true,
+  "hidden": false,
   "crushDamage": 2,
   "targetAir": false,
   "segmentScl": 4,
