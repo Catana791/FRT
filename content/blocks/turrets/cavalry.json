@@ -67,7 +67,7 @@
       "intervalBullets": 8,
       "intervalRandomSpread": 0,
       "intervalSpread": 45,
-      "bulletInterval": 1
+      "bulletInterval": 9,
       "intervalBullet": {
         "type": "ContinuousLaserBulletType",
         "length": 160,
