@@ -70,13 +70,12 @@
       "intervalBullets": 8,
       "intervalRandomSpread": 0,
       "intervalSpread": 45,
-      "intervalDelay": -1,
       "bulletInterval": 10,
       "intervalBullet": {
         "type": "ContinuousLaserBulletType",
         "length": 100,
         "width": 4,
-        "lifetime": 18,
+        "lifetime": 19.5,
         "damage": 100,
         "damageInterval": 8,
         "colors": ["66B1FF", "E4FDFF", "56b1d7", "91f7ff", "FFFFFF"]
