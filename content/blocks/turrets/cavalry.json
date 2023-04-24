@@ -1,0 +1,92 @@
+{
+    "type": "PowerTurret",
+    "name": "Cavalry",
+    "description": "The final turret of the Lancer family. Has a low fire rate but extremely high damage that even surpasses the legendary Meltdown.",
+    "size": 5,
+    "health": 2850,
+    "reload": 200,
+    "heatColor": "ff795e"
+    "range": 240,
+    "shootCone": 0.08,
+    "recoil": 0.7,
+    "rotateSpeed": 10,
+    "targetAir": false,
+    "shootSound": "cavalry-shoot",
+    "consumes": {
+      "power": 32
+    },
+    "hasPower": true,
+    "displayAmmoMultiplier": false,
+    "recoil": 3,
+    "recoilTime": 180,
+    "shake": 1.1,
+    "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "WaveEffect",
+                "colorFrom": "66B1FF",
+                "colorTo": "E4FDFF",
+                "sizeFrom": 10,
+                "sizeTo": 0,
+                "lifetime": 199
+            }
+        ]
+    },
+    "shootType": {
+      "type": "BasicBulletType",
+      "sprite": "large-orb",
+      "width": 32,
+      "height": 32,
+      "speed": 3,
+      "lifetime": 80,
+      "spin": 9,
+      "pierce": true,
+      "damage": 1000,
+      "hitEffect": "massiveExplosion",
+      "fragBullets": 4,
+      "fragSpread": 90,
+      "trailColor": "66B1FF",
+      "backColor": "66B1FF",
+      "frontColor": "E4FDFF",
+      "trailLength": 34,
+      "trailChance": -1,
+      "fragRandomSpread": 0,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragBullet": {
+        "type": "LaserBulletType",
+        "length": 80,
+        "width": 8,
+        "lifetime": 90,
+        "damage": 60,
+        "colors": ["66B1FF", "E4FDFF", "FFFFFF"]
+      },
+      "intervalBullets": 8,
+      "intervalRandomSpread": 0,
+      "intervalSpread": 45,
+      "intervalDelay": -1,
+      "bulletInterval": 80,
+      "intervalBullet": {
+        "type": "ContinuousLaserBulletType",
+        "length": 160,
+        "width": 16,
+        "lifetime": 60,
+        "fadeTime": 20,
+        "damage": 100,
+        "damageInterval": 8,
+        "colors": ["66B1FF", "E4FDFF", "56b1d7", "91f7ff", "FFFFFF"]
+      }
+    },
+    "requirements": [
+        "copper/1500",
+        "lead/500",
+        "graphite/600",
+        "silicon/550",
+        "surge-alloy/575"
+    ],
+    "category": "turret",
+    "research": "kugelblitz"
+}
