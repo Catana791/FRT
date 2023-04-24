@@ -37,6 +37,8 @@
       "type": "BasicBulletType",
       "sprite": "large-orb",
       "width": 32,
+      "shootSound": "zap",
+      "hitSound": "mediumCannon",
       "height": 32,
       "speed": 3,
       "lifetime": 80,
@@ -57,6 +59,7 @@
       "fragVelocityMin": 1,
       "fragVelocityMax": 1,
       "fragBullet": {
+        "shootSound": "laser",
         "type": "LaserBulletType",
         "length": 80,
         "width": 8,
@@ -69,10 +72,11 @@
       "intervalSpread": 45,
       "bulletInterval": 1,
       "intervalBullet": {
+        "shootSound": "zap"
         "type": "ContinuousLaserBulletType",
         "length": 160,
         "width": 8,
-        "lifetime": 20,
+        "lifetime": 2,
         "damage": 100,
         "damageInterval": 8,
         "colors": ["66B1FF", "E4FDFF", "56b1d7", "91f7ff", "FFFFFF"]
