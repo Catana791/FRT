@@ -73,8 +73,8 @@
       "bulletInterval": 1,
       "intervalBullet": {
         "type": "ContinuousLaserBulletType",
-        "length": 160,
-        "width": 8,
+        "length": 100,
+        "width": 4,
         "lifetime": 10,
         "damage": 100,
         "damageInterval": 8,
