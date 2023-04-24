@@ -52,7 +52,8 @@
       "trailColor": "66B1FF",
       "backColor": "66B1FF",
       "frontColor": "E4FDFF",
-      "trailLength": 34,
+      "trailLength": 50,
+      "trailWidth": 18,
       "trailChance": -1,
       "fragRandomSpread": 0,
       "fragLifeMin": 1,
@@ -80,7 +81,11 @@
         "damage": 100,
         "damageInterval": 8,
         "colors": ["66B1FF", "E4FDFF", "56b1d7", "91f7ff", "FFFFFF"]
-      }
+      },
+      "lightning": 6,
+      "lightningCone": 360,
+      "lightningLength": 6,
+      "lightningDamage": 145
     },
     "requirements": [
         "copper/1500",
