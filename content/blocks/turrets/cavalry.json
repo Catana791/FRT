@@ -47,6 +47,7 @@
       "pierce": true,
       "damage": 1000,
       "hitEffect": "massiveExplosion",
+      "despawnHit": true,
       "fragBullets": 5,
       "fragSpread": 72,
       "trailColor": "66B1FF",
@@ -64,7 +65,7 @@
         "shootSound": "laser",
         "type": "LaserBulletType",
         "length": 80,
-        "width": 8,
+        "width": 16,
         "lifetime": 90,
         "damage": 60,
         "colors": ["66B1FF", "E4FDFF", "FFFFFF"]
