@@ -76,7 +76,7 @@
         "type": "ContinuousLaserBulletType",
         "length": 100,
         "width": 4,
-        "lifetime": 12,
+        "lifetime": 16,
         "damage": 100,
         "damageInterval": 8,
         "colors": ["66B1FF", "E4FDFF", "56b1d7", "91f7ff", "FFFFFF"]
