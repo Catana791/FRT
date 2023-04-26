@@ -20,8 +20,8 @@
       0, 0, 270,
       0, 0, 360
     ],
-    "shots": 60,
-    "shotDelay": 3,
+    "shots": 90,
+    "shotDelay": 1,
     "firstShotDelay": 120
   },
   "chargeSound": "lasercharge",
