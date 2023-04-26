@@ -14,7 +14,7 @@
   "reload": 260,
   "shoot": {
     "shots": 32,
-    "shotDelay": 0.2,
+    "shotDelay": 3,
     "firstShotDelay": 120
   },
   "chargeSound": "lasercharge",
@@ -23,6 +23,7 @@
   "shootY": 0,
   "shootEffect": "lightningCharge",
   "rotate": false,
+  "rotateSpeed": 0,
   "shootCone": 360,
   "shootSound": "spark",
   "shootWarmupSpeed": 0.05,
@@ -56,6 +57,7 @@
       "lightningLengthRand": 1,
       "damage": 4,
       "pierce": true,
+      "lifetime": 90,
       "pierceBuilding": true,
       "lightningColor": "24c8cf80",
       "buildingDamageMultiplier": 0.25,
@@ -101,62 +103,26 @@
         "type": "RegionPart",
         "suffix": "-sinks-side",
         "progress": "warmup",
-        "moveX": 2,
+        "moveX": 4,
         "mirror": true,
         "heatProgress": "warmup",
-        "under": true,
-        "moves": [
-          {
-            "progress": "recoil",
-            "gx": 1,
-            "gy": 1
-          },
-          {
-            "progress": "reload", 
-            "gy": -1,
-            "gx": -1
-          }
-        ]
+        "under": true
       },
       {
         "type": "RegionPart",
         "suffix": "-sinks-top",
         "progress": "warmup",
-        "moveY": 2,
+        "moveY": 4,
         "heatProgress": "warmup",
-        "under": true,
-        "moves": [
-          {
-            "progress": "recoil",
-            "gx": 1,
-            "gy": 1
-          },
-          {
-            "progress": "reload",
-            "gy": -1,
-            "gx": -1
-          }
-        ]
+        "under": true
       },
       {
         "type": "RegionPart",
         "suffix": "-sinks-bottom",
         "progress": "warmup",
-        "moveY": -2,
+        "moveY": -4,
         "heatProgress": "warmup",
-        "under": true,
-        "moves": [
-          {
-            "progress": "recoil",
-            "gx": 1,
-            "gy": 1
-          },
-          {
-            "progress": "reload",
-            "gy": -1,
-            "gx": -1
-          }
-        ]
+        "under": true
       },
       {
         "type": "RegionPart",
