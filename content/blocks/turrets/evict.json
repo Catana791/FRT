@@ -49,8 +49,10 @@
   "coolantMultiplier": 0.2,
   "shootType": {
     "type": "LightningBulletType",
+    "homingPower": 0.15,
+    "homingDelay": 30,
     "lightningLength": 35,
-    "damage": 100,
+    "damage": 50,
     "buildingDamageMultiplier": 0.25,
     "pierce": true,
     "pierceBuilding": true,
@@ -61,9 +63,11 @@
     "collidesGround": false
     "fragBullet": {
       "type": "LightningBulletType",
+      "homingPower": 0.15,
+      "homingDelay": 30,
       "lightningLength": 6,
       "lightningLengthRand": 1,
-      "damage": 25,
+      "damage": 15,
       "pierce": true,
       "lifetime": 90,
       "pierceBuilding": true,
