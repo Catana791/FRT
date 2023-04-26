@@ -88,7 +88,8 @@
         "moveX": 7,
         "mirror": true,
         "heatProgress": "warmup",
-        "under": true
+        "under": true,
+        "outline": false
       },
       {
         "type": "RegionPart",
@@ -96,7 +97,8 @@
         "progress": "warmup",
         "moveY": 7,
         "heatProgress": "warmup",
-        "under": true
+        "under": true,
+        "outline": false
       },
       {
         "type": "RegionPart",
@@ -104,7 +106,8 @@
         "progress": "warmup",
         "moveY": -7,
         "heatProgress": "warmup",
-        "under": true
+        "under": true,
+        "outline": false
       },
       {
         "type": "RegionPart",
