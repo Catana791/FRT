@@ -13,6 +13,13 @@
   "size": 3,
   "reload": 260,
   "shoot": {
+    "type": "ShootBarrel",
+    "barrels": [
+      0, 0, 90,
+      0, 0, 180,
+      0, 0, 270,
+      0, 0, 360
+    ],
     "shots": 32,
     "shotDelay": 3,
     "firstShotDelay": 120
