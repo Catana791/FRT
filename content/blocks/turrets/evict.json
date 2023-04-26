@@ -50,7 +50,7 @@
   "shootType": {
     "type": "LightningBulletType",
     "lightningLength": 35,
-    "damage": 20,
+    "damage": 100,
     "buildingDamageMultiplier": 0.25,
     "pierce": true,
     "pierceBuilding": true,
@@ -63,7 +63,7 @@
       "type": "LightningBulletType",
       "lightningLength": 6,
       "lightningLengthRand": 1,
-      "damage": 4,
+      "damage": 25,
       "pierce": true,
       "lifetime": 90,
       "pierceBuilding": true,
@@ -77,6 +77,7 @@
     "parts": [
       {
       "type": "HaloPart",
+      "layerOffset": -1,
       "progress": "warmup",
       "x": 0,
       "y": 0,
@@ -92,6 +93,7 @@
     },
     {
       "type": "HaloPart",
+      "layerOffset": -1,
       "progress": "warmup",
       "x": 0,
       "y": 0,
