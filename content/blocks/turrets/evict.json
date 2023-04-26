@@ -2,6 +2,14 @@
   "type": "PowerTurret",
   "name": "Evict",
   "description": "Charges up and releases electric ars uncrontrollably.",
+  "category": "turret",
+  "requirements": [
+    "copper/680",
+    "silicon/520",
+    "thorium/300",
+    "surge-alloy/220"
+  ],
+  "research": "duo",
   "size": 3,
   "reload": 260,
   "shoot": {
