@@ -57,6 +57,7 @@
     "lightningLengthRand": 2,
     "lightningColor": "24c8cf80",
     "fragBullets": 1,
+    "lifetime": 120,
     "collidesGround": false
     "fragBullet": {
       "type": "LightningBulletType",
