@@ -14,12 +14,14 @@
   "reload": 260,
   "shoot": {
     "shots": 32,
-    "shotDelay": 0.2
+    "shotDelay": 0.2,
+    "firstShotDelay": 120
   },
+  "chargeSound": "lasercharge",
   "inaccuracy": 360,
   "shootX": 0,
   "shootY": 0,
-  "shootEffect": "lightning-charge",
+  "shootEffect": "lightningCharge",
   "rotate": false,
   "shootCone": 360,
   "shootSound": "spark",
