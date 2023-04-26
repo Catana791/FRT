@@ -9,6 +9,9 @@
     "shotDelay": 0.2
   },
   "inaccuracy": 360,
+  "rotate": false,
+  "shootCone": 360,
+  "shootSound": "spark",
   "shootWarmupSpeed": 0.05,
   "minWarmup": 0.9,
   "warmupMaintainTime": 180,
@@ -18,7 +21,7 @@
   "consumes": {
     "power": 40,
     "coolant": {
-      "amount": 1.6 
+      "amount": 1.75 
     }
   },
   "range": 280,
@@ -53,7 +56,8 @@
         "type": "RegionPart",
         "suffix": "-sinks-side",
         "progress": "warmup",
-        "moveX": 12,
+        "moveX": 2,
+        "mirror": true,
         "heatProgress": "warmup",
         "under": true,
         "moves": [
@@ -73,9 +77,49 @@
         "type": "RegionPart",
         "suffix": "-sinks-top",
         "progress": "warmup",
-        "moveY": 12,
+        "moveY": 2,
         "heatProgress": "warmup",
-        "under": true
+        "under": true,
+        "moves": [
+          {
+            "progress": "recoil",
+            "gx": 1,
+            "gy": 1
+          },
+          {
+            "progress": "reload",
+            "gy": -1,
+            "gx": -1
+          }
+        ]
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-sinks-bottom",
+        "progress": "warmup",
+        "moveY": -2,
+        "heatProgress": "warmup",
+        "under": true,
+        "moves": [
+          {
+            "progress": "recoil",
+            "gx": 1,
+            "gy": 1
+          },
+          {
+            "progress": "reload",
+            "gy": -1,
+            "gx": -1
+          }
+        ]
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-top",
+        "mirror": false,
+        "under": false,
+        "progress": "warmup",
+        "heatProgress": "warmup"
       }
     ]
   }
