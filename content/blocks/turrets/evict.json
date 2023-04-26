@@ -1,0 +1,82 @@
+{
+  "type": "PowerTurret",
+  "name": "Evict",
+  "description": "Charges up and releases electric ars uncrontrollably.",
+  "size": 3,
+  "reload": 260,
+  "shoot": {
+    "shots": 32,
+    "shotDelay": 0.2
+  },
+  "inaccuracy": 360,
+  "shootWarmupSpeed": 0.05,
+  "minWarmup": 0.9,
+  "warmupMaintainTime": 180,
+  "shootCone": 360,
+  "targetAir": true,
+  "targetGround": false,
+  "consumes": {
+    "power": 40,
+    "coolant": {
+      "amount": 1.6 
+    }
+  },
+  "range": 280,
+  "coolantMultiplier": 0.2,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 35,
+    "damage": 20,
+    "buildingDamageMultiplier": 0.25,
+    "pierce": true,
+    "pierceBuilding": true,
+    "lightningLengthRand": 2,
+    "lightningColor": "24c8cf80",
+    "fragBullets": 1,
+    "collidesGround": false
+    "fragBullet": {
+      "type": "LightningBulletType",
+      "lightningLength": 6,
+      "lightningLengthRand": 1,
+      "damage": 4,
+      "pierce": true,
+      "pierceBuilding": true,
+      "lightningColor": "24c8cf80",
+      "buildingDamageMultiplier": 0.25,
+      "collidesGround": false
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-sinks-side",
+        "progress": "warmup",
+        "moveX": 12,
+        "heatProgress": "warmup",
+        "under": true,
+        "moves": [
+          {
+            "progress": "recoil",
+            "gx": 1,
+            "gy": 1
+          },
+          {
+            "progress": "reload",
+            "gy": -1,
+            "gx": -1
+          }
+        ]
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-sinks-top",
+        "progress": "warmup",
+        "moveY": 12,
+        "heatProgress": "warmup",
+        "under": true
+      }
+    ]
+  }
+}
