@@ -11,7 +11,7 @@
   ],
   "research": "duo",
   "size": 3,
-  "reload": 260,
+  "reload": 330,
   "shoot": {
     "type": "ShootBarrel",
     "barrels": [
@@ -45,13 +45,13 @@
       "amount": 1.75 
     }
   },
-  "range": 280,
+  "range": 320,
   "coolantMultiplier": 0.2,
   "shootType": {
     "type": "LightningBulletType",
     "homingPower": 0.15,
     "homingDelay": 30,
-    "lightningLength": 35,
+    "lightningLength": 40,
     "damage": 50,
     "buildingDamageMultiplier": 0.25,
     "pierce": true,
@@ -59,22 +59,27 @@
     "lightningLengthRand": 2,
     "lightningColor": "24c8cf80",
     "fragBullets": 1,
-    "lifetime": 120,
     "collidesGround": false
     "fragBullet": {
-      "type": "LightningBulletType",
-      "homingPower": 0.15,
-      "homingDelay": 30,
-      "lightningLength": 12,
-      "lightningLengthRand": 1,
-      "shootSound": "spark",
-      "damage": 15,
+      "type": "FlakBulletType",
+      "collidesGround": false,
+      "collidesTiles": false,
+      "collidesAir": true,
       "pierce": true,
-      "lifetime": 90,
-      "pierceBuilding": true,
-      "lightningColor": "24c8cf80",
-      "buildingDamageMultiplier": 0.25,
-      "collidesGround": false
+      "speed": 4,
+      "lifetime": 80,
+      "damage": 20,
+      "homingPower": 0.02,
+      "homingDelay": 45,
+      "status": "frt-engine-failure",
+      "statusDuration": 120,
+      "hitEffect": "flakExplosion",
+      "despawnEffect": "flakExplosion",
+      "trailChance": -1,
+      "trailWidth": 2,
+      "trailLength": 8,
+      "height": 12,
+      "width": 8
     }
   },
   "drawer": {
